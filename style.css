@@ -140,18 +140,26 @@ hr {
 #header {
     position: relative;
     width: 100%;
-    height: 280px;
-    background-image: url('assets/header.jpeg');
+    height: 400px;
+    background-image: url('assets/cmu.jpeg');
     background-size: 100%;
 }
 
-#smallheader {
-    position: relative;
+#peopleheader {
     width: 100%;
-    height: 160px;
-    background-image: url('assets/smallheader.jpeg');
+    height: 320px;
+    background-image: url('assets/peopleheader.jpg');
     background-repeat: no-repeat;
-    background-size: 1200px 320px;
+    background-size: 1300px 320px;
+    background-color: black;
+}
+
+#courseheader {
+    width: 100%;
+    height: 300px;
+    background-image: url('assets/courseheader.png');
+    background-repeat: no-repeat;
+    background-size: 1300px 300px;
     background-color: black;
 }
 
@@ -181,17 +189,6 @@ hr {
     color: #999;
 }
 
-.newsText {
-    text-align: left;
-    font-size: 18px;
-}
-
-#newsTitle {
-    margin: 0px;
-    font-size: 24px;
-    text-transform: uppercase;
-}
-
 #content .text {
     font-size: 16px;
     text-align: justify;
@@ -211,134 +208,6 @@ hr {
     background-color: white;
     background-image: url('images/gradient.jpeg');
     background-repeat: repeat-x;
-}
-
-/* style for news box in front page header */
-
-
-
-#newsBox {
-    width: 350px;
-    position: absolute;
-    left: 0px;
-    bottom: 0px;
-    background-color: rgba(0, 0, 0, .65);
-    font-size: 13px;
-    text-align: left;
-    padding: 11px;
-    padding-left: 9px;
-    padding-bottom: 4px;
-    padding-right: 6px;
-    color: white;
-    line-height: 14px;
-}
-
-#newsBox .date {
-    color: #aaa;
-    font-size: 12px;
-}
-
-#more {
-    display: block;
-    text-align: right;
-    position: absolute;
-    right: 7px;
-    bottom: 4px;
-}
-
-/* style for news items on the front page */
-
-.newsItemWrapperLeft {
-    width: 100%;
-    text-align: left;
-}
-
-.newsItemWrapperRight {
-    width: 100%;
-    text-align: left;
-}
-
-.newsItem {
-    display: inline-block;
-    width: 95%;
-    padding-top: 20px;
-    padding-right: 14px;
-}
-
-.newsItem td {
-    vertical-align: top;
-}
-
-.newsItemWrapperRight img {
-    padding-left: 20px;
-}
-
-.newsItemWrapperLeft img {
-    padding-right: 20px;
-}
-
-.leftWrap {
-    width: 85%;
-    margin-right: auto;
-    text-align: left;
-}
-
-.rightWrap {
-    width: 85%;
-    margin-left: auto;
-    text-align: right;
-}
-
-/* set style for links in the news box */
-#newsBox a:link {
-    text-decoration: none;
-    /* no underlines */
-}
-
-#newsBox a:link {
-    color: white;
-}
-
-#newsBox a:visited {
-    color: white;
-    /* don't change color after being visited */
-}
-
-#newsBox a:hover {
-    color: #aaa;
-    /* highlight on mouseover */
-}
-
-.aboutBox {
-    width: 260px;
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    background-color: rgba(175, 30, 45, .75);
-    font-size: 14px;
-    padding: 11px;
-    padding-bottom: 0px;
-    color: white;
-    text-align: left;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-    line-height: 16px;
-}
-
-.aboutBox a:link,
-.aboutBox a:visited {
-    color: white;
-}
-
-.aboutBox a:hover {
-    color: #ccc;
-}
-
-.boxTitle {
-    font-size: 24px;
-    text-transform: uppercase;
 }
 
 /* the "navigation bar" is the list of pages along top of main header;
@@ -469,19 +338,6 @@ table.personTable img {
     height: 128px;
 }
 
-.alumnus {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-    width: 250px;
-    background-color: #eee;
-    margin: 4px;
-    padding: 8px;
-    font-size: 12px;
-    border-radius: 3px;
-    border: 1px solid #e0e0e0;
-}
-
 /* styling the "Courses" page */
 table.course {
     table-layout: fixed;
@@ -490,17 +346,10 @@ table.course {
     border-collapse: collapse;
 }
 
-table.course.archived {
-    background: linear-gradient(#f5f5f5, #fbfbfb);
-    color: #444;
-}
-
 table.course td {
     text-align: left;
     vertical-align: top;
     padding-top: 8px;
-    padding-left: 10px;
-    padding-right: 10px;
     padding-bottom: 20px;
     font-size: 12px;
     border-top: solid 1px #ddd;
@@ -508,18 +357,22 @@ table.course td {
 
 table.course td:nth-child(1) {
     width: 128px;
+    padding-left: 10px;
 }
 
 table.course td:nth-child(2) {
-    width: 512px;
+    width: 300px;
+    padding-right: 30px;
 }
 
 table.course td:nth-child(3) {
     width: 128px;
+    padding-left: 10px;
 }
 
 table.course td:nth-child(4) {
-    width: 512px;
+    width: 300px;
+    padding-right: 10px;
 }
 
 table.course td.courseDescription {
@@ -545,6 +398,7 @@ table.course td.courseDescription {
     border: 1px solid #aaa;
     overflow: hidden;
     background-size: cover;
+    margin-left: 18px;
 }
 
 .course .cropTeaser img {
@@ -555,7 +409,6 @@ table.course td.courseDescription {
     /* for courses without a teaser image */
     height: 128px;
     width: 128px;
-    margin-right: 18px;
 }
 
 #coursePageContent li {
@@ -563,201 +416,27 @@ table.course td.courseDescription {
     line-height: 14px;
 }
 
-/* styling for the "Publications" page */
-.cropTeaser {
-    height: 64px;
-    width: 128px;
-    border: 1px solid #aaa;
-    overflow: hidden;
-    background-size: cover;
-    margin-right: 16px;
+/* =========================== Project Teasers =========================== */
+#projectPage {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Open Sans", Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 
-.cropTeaser img {
-    width: 128px;
+#projectPage td {
+    font-size: 18px;
 }
 
-.cropTeaserPhantom {
-    /* for papers without a teaser image */
-    height: 64px;
-    width: 128px;
-    margin-right: 18px;
-}
-
-.publistItem {
-    text-align: left;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    overflow: auto;
-    background-color: white;
-    background-repeat: repeat-x;
-    border-top: 1px solid #ddd;
-}
-
-.publistYear {
-    font-size: 20pt;
-    width: 100%;
-    text-align: center;
-    padding-top: 48px;
-}
-
-.publistTitle {
-    margin: 0px;
-    font-weight: bold;
-    font-size: 14pt;
-}
-
-.publistAuthors {
-    font-size: 12pt;
-}
-
-.publistJournal {
-    font-style: italic;
-    font-size: 12pt;
-    color: #888;
-}
-
-.pubItem {
-    text-align: center;
-    position: relative;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 10px;
-    padding-top: 20px;
-    overflow: auto;
-    background-color: white;
-    background-repeat: repeat-x;
-    border-top: 1px solid #ddd;
-}
-
-.pubContent {
+table.projectTable {
     display: inline-block;
-    padding-left: 24px;
-    padding-right: 24px;
-    text-align: left;
-}
-
-#pubTitle {
     text-align: center;
+    padding: 10px;
     font-weight: bold;
-    font-size: 24px;
 }
 
-#pubAuthors {
-    padding-top: 8px;
-    text-align: center;
-    font-size: 16px;
+table.projectTable img {
+    border-radius: 8px;
+    width: 384px;
+    height: 192px;
 }
-
-#pubAuthors table {
-    margin: 0 auto;
-}
-
-#pubAuthors td {
-    padding-left: 20px;
-    padding-right: 20px;
-}
-
-#pubAffiliations {
-    padding-top: 8px;
-    text-align: center;
-    font-size: 16px;
-}
-
-#pubJournal {
-    padding-top: 8px;
-    text-align: center;
-    font-style: italic;
-    font-size: 16px;
-    color: #888;
-}
-
-#pubImage {
-    padding-top: 16px;
-    text-align: center;
-    font-weight: bold;
-    font-size: 16px;
-    color: #888;
-}
-
-#pubAbstract {
-    padding-top: 20px;
-    text-align: justify;
-    font-size: 16px;
-    text-align: justify;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    hyphens: auto;
-}
-
-#pubAbstract:before {
-    content: "ABSTRACT";
-    font-size: 20px;
-}
-
-#pubCitation {
-    padding-top: 20px;
-    text-align: justify;
-    font-size: 14px;
-    padding-bottom: 20px;
-}
-
-#pubCitation:before {
-    content: "CITATION";
-    font-size: 20px;
-}
-
-#pubBibTex {
-    display: inline-block;
-    text-align: justify;
-    font-size: 10px;
-    font-family: monospace;
-    background-color: #eee;
-    padding: 8px;
-    margin-bottom: 16px;
-}
-
-#pubBibTex:before {
-    content: "BibTeX";
-    font-size: 20px;
-}
-
-#pubLinks {
-    text-align: left;
-    font-size: 20px;
-    text-transform: uppercase;
-    text-decoration: underline;
-    padding-bottom: 10px;
-}
-
-/* paper abstracts */
-.abstract {
-    border-top: 1px solid black;
-    padding-bottom: 40px;
-    text-align: justify;
-}
-
-.abstract img {
-    float: right;
-    padding-left: 20px;
-    padding-bottom: 10px;
-}
-
-.abstract h2 {
-    clear: none;
-}
-
-/* =========================== POSTS =========================== */
-
-#postTitle {
-    text-align: center;
-    font-size: 28pt;
-}
-
 
 /* =========================== FOOTER =========================== */
 

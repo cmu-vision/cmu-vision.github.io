@@ -28,12 +28,12 @@
    inkscape:deskcolor="#d1d1d1"
    showgrid="false"
    inkscape:zoom="2.5528141"
-   inkscape:cx="135.73256"
-   inkscape:cy="49.944882"
-   inkscape:window-width="1816"
+   inkscape:cx="150.03051"
+   inkscape:cy="73.840081"
+   inkscape:window-width="1440"
    inkscape:window-height="745"
-   inkscape:window-x="83"
-   inkscape:window-y="193"
+   inkscape:window-x="0"
+   inkscape:window-y="99"
    inkscape:window-maximized="0"
    inkscape:current-layer="Layer_1" />
 <g
@@ -158,8 +158,8 @@
    x="401.90942"
    y="83.437332"
    id="text259"><tspan
-     sodipodi:role="line"
      id="tspan257"
      x="401.90942"
      y="83.437332"
-     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.3333px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffffff">VISION</tspan></text></svg>
+     style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:41.3333px;font-family:'Helvetica Neue';-inkscape-font-specification:'Helvetica Neue, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#f9f9f9"
+     sodipodi:role="line">Computer Vision</tspan></text></svg>
