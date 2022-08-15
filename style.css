@@ -1,0 +1,882 @@
+/*
+Theme Name: cmugfx
+Theme URI: http://graphics.cs.cmu.edu
+Author: Keenan Crane
+Author URI: http://keenan.is/here
+Description: Custom theme for Carnegie Mellon Graphics
+Version: 1.0
+License: BSD 2-Clause License
+License URI: http://opensource.org/licenses/BSD-2-Clause
+Tags: red, white, tartan
+Text Domain: cmugfx
+*/
+
+/* NOTE: Web fonts can be loaded by adding the relevant links to header.php */
+
+
+/* ------- FONT STACK FOR BODY TEXT ------- */
+body {
+    /* SERIF BODY TEXT */
+    font-family: 'Adobe Garamond Pro', 'EB Garamond', Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+
+    /* SANS-SERIF BODY TEXT */
+    /* font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "Source Sans Pro", "HelveticaNeue", "Helvetica Neue", "Arial", sans-serif; font-weight:300; font-stretch:normal; */
+}
+
+/* ------- FONT STACK FOR HEADERS ------- */
+#content .title,
+#content .date,
+#newsBox,
+.boxTitle,
+#navBar a:link,
+#navBar a:visited,
+#navBar a:hover,
+.page_item,
+#pageTitle,
+.pageContent h2,
+.pageContent h3,
+.courseTitle,
+.publistYear,
+.publistTitle,
+#pubTitle,
+#pubAbstract:before,
+#pubCitation:before,
+#pubBibTex:before,
+#pubLinks,
+#postTitle,
+#footer,
+.editButton {
+    font-family: "HelveticaNeue-CondensedBold", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", "Roboto Condensed", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
+    font-weight: 600;
+    font-stretch: condensed;
+}
+
+
+
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    text-align: center;
+    background-color: #666;
+    color: black;
+}
+
+li {
+    margin: 0 0 8px 0;
+}
+
+img.alignright {
+    float: right;
+    margin: 0 0 1em 1em
+}
+
+img.alignleft {
+    float: left;
+    margin: 0 1em 1em 0
+}
+
+img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.alignright {
+    float: right;
+}
+
+.alignleft {
+    float: left;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* default style for links */
+a:link {
+    color: #af1e2d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #af1e2d;
+    /* don't change color after being visited */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #aaa;
+    /* highlight on mouseover */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* default style for horizontal rules */
+hr {
+    border: 0;
+    padding: 0px;
+    margin: 0px;
+    background-color: #666;
+    height: 25px;
+}
+
+#wrapper {
+    display: block;
+    width: 90%;
+    min-width: 700px;
+    max-width: 1600px;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+#header {
+    position: relative;
+    width: 100%;
+    height: 280px;
+    background-image: url('assets/header.jpeg');
+    background-size: 100%;
+}
+
+#smallheader {
+    position: relative;
+    width: 100%;
+    height: 160px;
+    background-image: url('assets/smallheader.jpeg');
+    background-repeat: no-repeat;
+    background-size: 1200px 320px;
+    background-color: black;
+}
+
+#logo {
+    padding-right: 10px;
+    padding-top: 10px;
+    float: right;
+}
+
+#content {
+    width: 100%;
+    float: left;
+    background-color: white;
+}
+
+
+#content .title {
+    font-size: 30px;
+    margin: 0px;
+}
+
+
+#content .date {
+    display: inline-block;
+    padding-top: 8px;
+    font-size: 16px;
+    color: #999;
+}
+
+.newsText {
+    text-align: left;
+    font-size: 18px;
+}
+
+#newsTitle {
+    margin: 0px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#content .text {
+    font-size: 16px;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.contentItem {
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    overflow: auto;
+    background-color: white;
+    background-image: url('images/gradient.jpeg');
+    background-repeat: repeat-x;
+}
+
+/* style for news box in front page header */
+
+
+
+#newsBox {
+    width: 350px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, .65);
+    font-size: 13px;
+    text-align: left;
+    padding: 11px;
+    padding-left: 9px;
+    padding-bottom: 4px;
+    padding-right: 6px;
+    color: white;
+    line-height: 14px;
+}
+
+#newsBox .date {
+    color: #aaa;
+    font-size: 12px;
+}
+
+#more {
+    display: block;
+    text-align: right;
+    position: absolute;
+    right: 7px;
+    bottom: 4px;
+}
+
+/* style for news items on the front page */
+
+.newsItemWrapperLeft {
+    width: 100%;
+    text-align: left;
+}
+
+.newsItemWrapperRight {
+    width: 100%;
+    text-align: left;
+}
+
+.newsItem {
+    display: inline-block;
+    width: 95%;
+    padding-top: 20px;
+    padding-right: 14px;
+}
+
+.newsItem td {
+    vertical-align: top;
+}
+
+.newsItemWrapperRight img {
+    padding-left: 20px;
+}
+
+.newsItemWrapperLeft img {
+    padding-right: 20px;
+}
+
+.leftWrap {
+    width: 85%;
+    margin-right: auto;
+    text-align: left;
+}
+
+.rightWrap {
+    width: 85%;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* set style for links in the news box */
+#newsBox a:link {
+    text-decoration: none;
+    /* no underlines */
+}
+
+#newsBox a:link {
+    color: white;
+}
+
+#newsBox a:visited {
+    color: white;
+    /* don't change color after being visited */
+}
+
+#newsBox a:hover {
+    color: #aaa;
+    /* highlight on mouseover */
+}
+
+.aboutBox {
+    width: 260px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: rgba(175, 30, 45, .75);
+    font-size: 14px;
+    padding: 11px;
+    padding-bottom: 0px;
+    color: white;
+    text-align: left;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    line-height: 16px;
+}
+
+.aboutBox a:link,
+.aboutBox a:visited {
+    color: white;
+}
+
+.aboutBox a:hover {
+    color: #ccc;
+}
+
+.boxTitle {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+/* the "navigation bar" is the list of pages along top of main header;
+ * this list is generated automatically from the current blog pages */
+#navBar {
+    padding-top: 8px;
+    text-align: left;
+}
+
+
+/* set style for links in the navigation bar */
+#navBar a:link {
+    float: left;
+    text-decoration: none;
+    /* no underlines */
+    text-transform: uppercase;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#navBar a:link {
+    color: white;
+    text-shadow: 0 0 6px black;
+    float: left;
+    text-decoration: none;
+    /* no underlines */
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+#navBar a:visited {
+    color: white;
+    /* don't change color after being visited */
+    float: left;
+    text-decoration: none;
+    /* no underlines */
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+#navBar a:hover {
+    color: #af1e2d;
+    /* highlight on mouseover */
+    text-shadow: 0 0 0px black;
+    float: left;
+    text-decoration: none;
+    /* no underlines */
+    text-transform: uppercase;
+    padding-left: 10px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 12px;
+}
+
+h2 {
+    clear: left;
+}
+
+.page_item {
+    font-size: 14px;
+    color: black;
+    text-transform: uppercase;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+#sidebar {
+    width: 23%;
+    float: right;
+}
+
+#delimiter {
+    clear: both;
+}
+
+.title {
+    font-size: 11pt;
+    font-family: arial;
+    font-weight: bold;
+}
+
+/* =========================== PAGES =========================== */
+
+
+#pageTitle {
+    margin: 0px;
+    text-align: left;
+    font-size: 36px;
+}
+
+.pageContent {
+    text-align: left;
+}
+
+.pageContent h2 {
+    text-transform: uppercase;
+}
+
+.pageContent h3 {
+    text-transform: uppercase;
+}
+
+.peopleCategoryTitle {
+    margin-bottom: 0px;
+    margin-top: 3ex;
+}
+
+#peoplePage {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Open Sans", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#peoplePage td {
+    font-size: 13px;
+}
+
+table.personTable {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+table.personTable img {
+    border-radius: 8px;
+    width: auto;
+    height: 128px;
+}
+
+.alumnus {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    width: 250px;
+    background-color: #eee;
+    margin: 4px;
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 1px solid #e0e0e0;
+}
+
+/* styling the "Courses" page */
+table.course {
+    table-layout: fixed;
+    width: 100%;
+    margin: 0px;
+    border-collapse: collapse;
+}
+
+table.course.archived {
+    background: linear-gradient(#f5f5f5, #fbfbfb);
+    color: #444;
+}
+
+table.course td {
+    text-align: left;
+    vertical-align: top;
+    padding-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    font-size: 12px;
+    border-top: solid 1px #ddd;
+}
+
+table.course td:nth-child(1) {
+    width: 128px;
+}
+
+table.course td:nth-child(2) {
+    width: 512px;
+}
+
+table.course td:nth-child(3) {
+    width: 128px;
+}
+
+table.course td:nth-child(4) {
+    width: 512px;
+}
+
+table.course td.courseDescription {
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    line-height: 15px;
+    font-size: 14px;
+}
+
+.courseTitle {
+    margin-top: 2px;
+    margin-bottom: 8px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.course .cropTeaser {
+    height: 128px;
+    width: 128px;
+    border: 1px solid #aaa;
+    overflow: hidden;
+    background-size: cover;
+}
+
+.course .cropTeaser img {
+    width: 128px;
+}
+
+.course .cropTeaserPhantom {
+    /* for courses without a teaser image */
+    height: 128px;
+    width: 128px;
+    margin-right: 18px;
+}
+
+#coursePageContent li {
+    font-size: 14px;
+    line-height: 14px;
+}
+
+/* styling for the "Publications" page */
+.cropTeaser {
+    height: 64px;
+    width: 128px;
+    border: 1px solid #aaa;
+    overflow: hidden;
+    background-size: cover;
+    margin-right: 16px;
+}
+
+.cropTeaser img {
+    width: 128px;
+}
+
+.cropTeaserPhantom {
+    /* for papers without a teaser image */
+    height: 64px;
+    width: 128px;
+    margin-right: 18px;
+}
+
+.publistItem {
+    text-align: left;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    overflow: auto;
+    background-color: white;
+    background-repeat: repeat-x;
+    border-top: 1px solid #ddd;
+}
+
+.publistYear {
+    font-size: 20pt;
+    width: 100%;
+    text-align: center;
+    padding-top: 48px;
+}
+
+.publistTitle {
+    margin: 0px;
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.publistAuthors {
+    font-size: 12pt;
+}
+
+.publistJournal {
+    font-style: italic;
+    font-size: 12pt;
+    color: #888;
+}
+
+.pubItem {
+    text-align: center;
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    overflow: auto;
+    background-color: white;
+    background-repeat: repeat-x;
+    border-top: 1px solid #ddd;
+}
+
+.pubContent {
+    display: inline-block;
+    padding-left: 24px;
+    padding-right: 24px;
+    text-align: left;
+}
+
+#pubTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#pubAuthors {
+    padding-top: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#pubAuthors table {
+    margin: 0 auto;
+}
+
+#pubAuthors td {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#pubAffiliations {
+    padding-top: 8px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#pubJournal {
+    padding-top: 8px;
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    color: #888;
+}
+
+#pubImage {
+    padding-top: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #888;
+}
+
+#pubAbstract {
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 16px;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+#pubAbstract:before {
+    content: "ABSTRACT";
+    font-size: 20px;
+}
+
+#pubCitation {
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+#pubCitation:before {
+    content: "CITATION";
+    font-size: 20px;
+}
+
+#pubBibTex {
+    display: inline-block;
+    text-align: justify;
+    font-size: 10px;
+    font-family: monospace;
+    background-color: #eee;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+#pubBibTex:before {
+    content: "BibTeX";
+    font-size: 20px;
+}
+
+#pubLinks {
+    text-align: left;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+/* paper abstracts */
+.abstract {
+    border-top: 1px solid black;
+    padding-bottom: 40px;
+    text-align: justify;
+}
+
+.abstract img {
+    float: right;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.abstract h2 {
+    clear: none;
+}
+
+/* =========================== POSTS =========================== */
+
+#postTitle {
+    text-align: center;
+    font-size: 28pt;
+}
+
+
+/* =========================== FOOTER =========================== */
+
+#footWrapper {
+    width: 100%;
+}
+
+#footer {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    background-color: black;
+}
+
+#footer a:link {
+    color: #aaa;
+}
+
+#footer a:visited {
+    color: #aaa;
+}
+
+#footer a:hover {
+    color: #af1e2d;
+}
+
+#footerLogo {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+
+#footerAddress {
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+    vertical-align: middle;
+    font-size: 24px;
+}
+
+#footerLogin {
+    position: absolute;
+    right: 6px;
+    bottom: 4px;
+    color: #af1e2d;
+}
+
+#footerLogin a:link {
+    color: #af1e2d;
+}
+
+#footerLogin a:visited {
+    color: #af1e2d;
+}
+
+
+.editButton {
+    position: absolute;
+    right: 8px;
+    bottom: 8px;
+    background-color: #ccc;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 3px;
+    border: 1px solid #999;
+    font-size: 12px;
+    -webkit-transition: color, border, background-color .3s;
+    -mozilla-transition: color, border, background-color .3s;
+    transition: color, border, background-color .3s;
+}
+
+.editButton:hover {
+    background-color: #555;
+    border: 1px solid #333;
+    -webkit-transition: color, border, background-color 0s;
+    -mozilla-transition: color, border, background-color 0s;
+    -transition: color, border, background-color 0s;
+}
+
+.buttonWrapper {
+    text-align: right;
+    width: 100%;
+}
+
+.buttonWrapper .editButton {
+    position: relative;
+    right: 12px;
+    bottom: 12px;
+}
+
+.imButtonWrapper {
+    position: relative;
+    text-align: right;
+}
+
+.imButtonWrapper .editButton {
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+}
+
+blockquote {
+    background-color: #eee;
+    padding: 18px;
+    border-radius: 8px;
+    font-style: italic;
+    font-weight: 300;
+    max-height: 292px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hspace {
+    display: block;
+    margin-bottom: 22px;
+}
