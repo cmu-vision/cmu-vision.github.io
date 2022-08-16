@@ -42,4 +42,4 @@ description:: Short descption about the course. Please DO NOT use a line-break, 
 (optional) url:: link_to_course_webpage (if no url, entirely skip this line. Do not add 'url:: ' to the text)
 ```
 
-The image should ideally be an external link (so we don't host a large github repo) but you may also add an image to the course folder and link to it if no external link is available. The image will be resized to a 1:1 aspect ratio, so please choose an appropriate project teaser.
+The image should ideally be an external link (so we don't host a large github repo) but you may also add an image to the course folder and link to it if no external link is available. Keep in mind that the image will be resized to a 1:1 aspect ratio.
