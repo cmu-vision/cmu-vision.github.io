@@ -1,6 +1,6 @@
 ## cmu-vision-web
 
-### Adding to the 'People' page
+## Adding to the 'People' page
 Each person can be added by creating a pull request that adds a text file `andrew_id.txt` in the `people/{faculty/student/postocs}` folder. The text file should have the following format:
 
 ```
@@ -15,7 +15,9 @@ year:: year_started_at_CMU (required for students, postdocs, and visitors)
 
 The image url can be an external link, or you can add an image to the appropriate subfolder in `people/{faculty/student/postdocs}/andrew_id.jpeg` in the same pull request. For example, Shubham's image is saved in `people/faculty/stulsian.jpeg` and the txt file link is `img:: people/faculty/stulsian.jpeg`.
 
-### Adding a Research Project
+
+
+## Adding a Research Project
 Each project can be added by creating a pull request that adds a text file `project_id.txt` in the `projects/` folder (see [examples](projects/)). The text file should have the following format:
 
 ```
