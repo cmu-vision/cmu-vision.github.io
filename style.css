@@ -358,22 +358,12 @@ table.course td {
 
 table.course td:nth-child(1) {
     width: 128px;
-    padding-left: 10px;
+    padding-left: 30px;
 }
 
 table.course td:nth-child(2) {
-    width: 300px;
+    width: 400px;
     padding-right: 30px;
-}
-
-table.course td:nth-child(3) {
-    width: 128px;
-    padding-left: 10px;
-}
-
-table.course td:nth-child(4) {
-    width: 300px;
-    padding-right: 10px;
 }
 
 table.course td.courseDescription {

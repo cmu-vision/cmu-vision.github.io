@@ -1,0 +1,5 @@
+number:: 16-889
+title:: Learning for 3D Vision
+url:: https://learning3d.github.io/
+img:: courses/l43d.png
+description:: Any autonomous agent we develop must perceive and act in a 3D world. The ability to infer, model, and utilize 3D representations is therefore of central importance in AI, with applications ranging from robotic manipulation and self-driving to virtual reality and image manipulation. While 3D understanding has been a longstanding goal in computer vision, it has witnessed several impressive advances due to the rapid recent progress in (deep) learning techniques. The goal of this course is to explore this confluence of 3D Vision and Learning-based methods.

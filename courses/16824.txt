@@ -1,0 +1,5 @@
+number:: 16-824
+title:: Visual Learning and Recognition
+url:: https://visual-learning.cs.cmu.edu/
+img:: https://visual-learning.cs.cmu.edu/images/teaser.jpg
+description:: This graduate-level computer vision course focuses on representation and reasoning for large amounts of data (images, videos, and associated tags, text, GPS locations, etc.) toward the ultimate goal of understanding the visual world surrounding us. We will be reading an eclectic mix of classic and recent papers on topics including Theories of Perception, Mid-level Vision (Grouping, Segmentation, Poses), Object and Scene Recognition, 3D Scene Understanding, Action Recognition, Contextual Reasoning, Joint Language and Vision Models, Deep Generative Models, etc. We will be covering a wide range of supervised, semi-supervised and unsupervised approaches for each of the topics above.
