@@ -41,7 +41,7 @@ def get_person_html_string(id, elems, keys):
     comment_str = '<!--------------------------------------------------------------------------->'
     person_str = ''
     person_str += '\n' + comment_str + '\n'
-    person_str += '<table class="personTable" id={}>\n'.format(id)
+    person_str += '<table class="personTable" id="{}">\n'.format(id)
     person_str += '<tr>\n<td>\n'
     person_str += '<a href="{}">\n <div class="imButtonWrapper"> \n <img alt="{}" src="{}" />\n</div>\n</a>\n'.format(elems['url'], elems['name'], elems['img'])
     person_str += '</td>\n</tr>\n<tr>\n<td>\n'

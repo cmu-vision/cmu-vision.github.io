@@ -44,7 +44,7 @@ def get_project_html_string(id, elems, keys):
     comment_str = '<!--------------------------------------------------------------------------->'
     project_str = ''
     project_str += '\n' + comment_str + '\n'
-    project_str += '<table class="projectTable" id={}>\n'.format(id)
+    project_str += '<table class="projectTable" id="{}">\n'.format(id)
     project_str += '<tr>\n<td>\n'
     project_str += '<a href="{}">\n <div class="imButtonWrapper"> \n <img src="{}" />\n</div>\n</a>\n'.format(elems['url'], elems['img'])
     project_str += '</td>\n</tr>\n<tr>\n<td>\n'

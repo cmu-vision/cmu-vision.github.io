@@ -42,7 +42,7 @@ def get_course_html_string(id, elems, keys):
     comment_str = '<!--------------------------------------------------------------------------->'
     course_str = ''
     course_str += '\n' + comment_str + '\n'
-    course_str += '<table class="course" id={}>\n'.format(id)
+    course_str += '<table class="course" id="{}">\n'.format(id)
     course_str += '<tr>\n<td>\n'
     course_str += '<div class="cropTeaser" style="background-image: url(\'{}\');">\n</div>\n'.format(elems['img'])
     course_str += '</td>\n<td class="courseDescription">\n'
@@ -67,7 +67,7 @@ if __name__ == '__main__':
     folder = './courses'
     courses_string = ''
     ids = get_txtfile_ids(folder)
-    random.shuffle(ids)
+    ids.sort()
     for id in ids:
         elems, keys = parse_course_info(id, folder)
         courses_string += get_course_html_string(id, elems, keys)
