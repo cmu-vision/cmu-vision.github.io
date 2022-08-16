@@ -25,4 +25,4 @@ url:: link_to_project_webpage_or_pdf
 year:: year_published (required so we can automatically show recent projects)
 ```
 
-The image should ideally be an external link (so we don't host a large github repo) but you may also add an image to the projects folder and link to it if no external link is available. You you can also link to a GIF file, but not a video (e.g. MP4).
+The image should ideally be an external link (so we don't host a large github repo) but you may also add an image to the projects folder and link to it if no external link is available. You you can also link to a GIF file, but not a video (e.g. MP4). The image will be resized to a 2:1 aspect ratio, so please choose an appropriate project teaser.
