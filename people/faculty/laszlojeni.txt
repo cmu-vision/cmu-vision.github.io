@@ -1,0 +1,3 @@
+name:: Laszlo A. Jeni
+url:: https://www.laszlojeni.com/
+img:: https://www.laszlojeni.com/laszlo6.png

@@ -1,0 +1,3 @@
+name:: Kris Kitani
+url:: https://kriskitani.github.io/
+img:: people/faculty/kkitani.jpeg

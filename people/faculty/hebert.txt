@@ -1,0 +1,3 @@
+name:: Martial Hebert
+url:: https://www.cs.cmu.edu/~hebert/
+img:: people/faculty/hebert.jpeg

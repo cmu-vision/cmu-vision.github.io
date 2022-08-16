@@ -1,0 +1,3 @@
+name:: David Held
+url:: https://davheld.github.io/
+img:: people/faculty/dheld.jpeg

@@ -1,0 +1,3 @@
+name:: Takeo Kanade
+url:: https://www.cs.cmu.edu/~tk/
+img:: https://www.ri.cmu.edu/app/uploads/2016/12/kanade_takeo_2014.jpg

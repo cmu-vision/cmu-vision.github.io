@@ -334,8 +334,9 @@ table.personTable {
 
 table.personTable img {
     border-radius: 8px;
-    width: auto;
+    width: 128px;
     height: 128px;
+    object-fit: cover;
 }
 
 /* styling the "Courses" page */

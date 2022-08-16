@@ -1,0 +1,3 @@
+name:: Deepak Pathak
+url:: https://www.cs.cmu.edu/~dpathak/
+img:: people/faculty/dpathak.jpeg

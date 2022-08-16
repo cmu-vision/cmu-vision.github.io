@@ -1,0 +1,4 @@
+name:: Jonathon Luiten
+url:: https://www.vision.rwth-aachen.de/person/216/
+year:: 2021
+img:: https://www.vision.rwth-aachen.de/media/person_photos/10985280_10204913916781674_2258061602885404072_n.jpg

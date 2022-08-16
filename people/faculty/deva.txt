@@ -1,0 +1,3 @@
+name:: Deva Ramanan
+url:: https://www.cs.cmu.edu/~deva/
+img:: people/faculty/deva.png

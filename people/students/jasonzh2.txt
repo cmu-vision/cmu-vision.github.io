@@ -1,0 +1,5 @@
+name:: Jason Y. Zhang
+url:: https://jasonyzhang.com/
+program:: PhD
+year:: 2019
+img:: people/students/jasonzh2.jpeg
