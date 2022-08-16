@@ -59,7 +59,7 @@ def get_project_html_string(id, elems, keys):
 
 
 if __name__ == '__main__':
-    page_string = read_file('./index_base.html')
+    page_string = read_file('./research_base.html')
 
     ###########################################################################
     ###########################################################################
@@ -86,6 +86,6 @@ if __name__ == '__main__':
     ###########################################################################
     ###########################################################################
 
-    fpath = './index.html'
+    fpath = './research.html'
     with open(fpath, 'w') as f:
         f.write(page_string)
