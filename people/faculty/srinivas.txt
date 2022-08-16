@@ -1,2 +1,3 @@
 name:: Srinivas Narasimhan
 img:: people/faculty/srinivas.jpeg
+url:: https://www.cs.cmu.edu/~srinivas/
