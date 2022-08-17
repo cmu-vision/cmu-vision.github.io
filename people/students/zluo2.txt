@@ -1,0 +1,5 @@
+name:: Zhengyi Luo
+url:: https://zhengyiluo.github.io/
+program:: PhD
+year:: 2021
+img:: people/students/zluo2.png
