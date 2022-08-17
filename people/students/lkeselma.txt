@@ -1,0 +1,5 @@
+name:: Leonid Keselman
+url:: https://leonidk.com/
+program:: PhD
+year:: 2017
+img:: people/students/nophoto_faceboard_white.jpeg
