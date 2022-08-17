@@ -1,4 +1,4 @@
-name:: Yufei Ye
+name:: Yufei (Judy) Ye
 img:: people/students/yufeiy2.jpeg
 url:: https://judyye.github.io/
 program:: PhD 
