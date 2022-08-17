@@ -1,0 +1,4 @@
+title:: Human-to-Robot Imitation in the Wild
+url:: https://human2robot.github.io/
+img:: https://www.cs.cmu.edu/~sbahl2/images/whirl.gif
+year:: 2022
