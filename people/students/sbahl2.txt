@@ -1,0 +1,5 @@
+name:: Shikhar Bahl
+url:: https://shikharbahl.github.io/
+program:: PhD
+year:: 2019
+img:: people/students/sbahl2.jpeg
