@@ -74,7 +74,8 @@ if __name__ == '__main__':
         if 'year' not in keys:
             pass
         if int(elems['year']) < (CURRENT_YEAR - 1):
-            pass
+            continue
+
         project_string += get_project_html_string(id, elems, keys)
 
         num_project+= 1

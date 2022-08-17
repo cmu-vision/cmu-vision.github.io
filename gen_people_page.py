@@ -80,7 +80,7 @@ if __name__ == '__main__':
     for id in ids:
         elems, keys = parse_person_info(id, folder)
         if 'year' not in keys:
-            pass
+            continue
         people_string += get_person_html_string(id, elems, keys)
     page_string = page_string.replace('<!-- autogen postdocs -->', '<!-- autogen postdocs -->\n' + people_string)
 
@@ -94,9 +94,9 @@ if __name__ == '__main__':
     for id in ids:
         elems, keys = parse_person_info(id, folder)
         if 'year' not in keys:
-            pass
+            continue
         if 'program' not in keys:
-            pass
+            continue
         people_string += get_person_html_string(id, elems, keys)
     page_string = page_string.replace('<!-- autogen students -->', '<!-- autogen students -->\n' + people_string)
 
