@@ -1,0 +1,5 @@
+name:: Gengshan Yang
+img:: people/students/gengshay.jpeg
+url:: https://gengshan-y.github.io/
+program:: PhD 
+year:: 2019
