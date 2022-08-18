@@ -1,0 +1,3 @@
+name:: Aswin Sankaranarayanan
+url:: http://imagesci.ece.cmu.edu/index.html
+img:: people/faculty/aswin.jpeg

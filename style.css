@@ -339,6 +339,10 @@ table.personTable img {
     object-fit: cover;
 }
 
+table.personTable td {
+    width: 140px;
+}
+
 /* styling the "Courses" page */
 table.course {
     table-layout: fixed;
