@@ -1,0 +1,5 @@
+name:: Shun Iwase
+url:: https://sh8.io/
+program:: PhD
+year:: 2022
+img:: people/students/siwase.jpeg
