@@ -1,4 +1,4 @@
-name: Nupur Kumari
+name:: Nupur Kumari
 img:: https://nupurkmr9.github.io/img/photo.jpg
 url:: https://nupurkmr9.github.io
 program:: PhD
