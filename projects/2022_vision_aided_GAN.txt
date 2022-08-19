@@ -1,4 +1,4 @@
 title:: Ensembling Off-the-shelf Models for GAN Training
 url:: https://www.cs.cmu.edu/~vision-aided-gan/
-img:: https://github.com/nupurkmr9/vision-aided-gan/blob/main/docs/vision-aided-gan.gif
+img:: https://nupurkmr9.github.io/img/vision_aided_gan.png
 year:: 2022
