@@ -1,0 +1,5 @@
+name:: Homanga Bharadhwaj
+img:: https://homangab.github.io/pics/self.png
+url:: https://homangab.github.io/
+program:: PhD 
+year:: 2021
