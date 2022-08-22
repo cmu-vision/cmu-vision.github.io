@@ -1,0 +1,4 @@
+title:: TAO: A Large-Scale Benchmark for Tracking Any Object
+url:: https://taodataset.org
+img:: https://www.cs.cmu.edu/~tkhurana/imgs/tao.gif
+year:: 2020

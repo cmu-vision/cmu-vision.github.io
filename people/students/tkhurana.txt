@@ -1,0 +1,5 @@
+name:: Tarasha Khurana
+img:: people/students/tkhurana.jpg
+url:: https://cs.cmu.edu/~tkhurana
+program:: PhD
+year:: 2021
