@@ -1,0 +1,5 @@
+name:: Xuxin Cheng
+url:: https://chengxuxin.github.io
+program:: MSR
+year:: 2021
+img:: people/students/xuxinc.png
