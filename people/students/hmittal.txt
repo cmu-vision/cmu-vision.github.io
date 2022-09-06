@@ -1,5 +1,5 @@
 name:: Himangi Mittal
-img:: people/students/hmittal.png
+img:: people/students/hmittal.jpg
 url:: https://himangim.github.io/
 program:: MSR
 year:: 2021
