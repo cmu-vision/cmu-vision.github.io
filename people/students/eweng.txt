@@ -1,0 +1,5 @@
+name:: Erica Weng
+img:: people/students/eweng.jpeg
+url:: https://ericaweng.github.io/
+program:: PhD
+year:: 2020
