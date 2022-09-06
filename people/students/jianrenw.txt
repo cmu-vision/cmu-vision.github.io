@@ -1,0 +1,5 @@
+name:: Jianren Wang
+url:: https://www.jianrenw.com/
+program:: PhD
+year:: 2020
+img:: people/students/jianrenw.jpg
