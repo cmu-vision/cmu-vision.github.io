@@ -1,0 +1,5 @@
+name:: Neehar Peri
+img:: people/students/nperi.png
+url:: http://www.neeharperi.com/
+program:: PhD 
+year:: 2021
