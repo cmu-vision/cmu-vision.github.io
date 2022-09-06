@@ -1,0 +1,4 @@
+title:: Bottom Up Top Down Detection Transformers for Language Grounding in Images and Point Clouds
+url:: https://butd-detr.github.io/
+img:: https://butd-detr.github.io/static/images/teaser.png
+year:: 2022
