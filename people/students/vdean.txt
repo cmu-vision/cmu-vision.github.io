@@ -1,0 +1,5 @@
+name:: Victoria Dean
+img:: people/students/vdean.jpeg
+url:: https://vdean.github.io/
+program:: PhD 
+year:: 2018
