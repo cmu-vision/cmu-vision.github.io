@@ -1,0 +1,5 @@
+name:: Sudeep Dasari
+url:: https://sudeepdasari.github.io/
+program:: PhD
+year:: 2019
+img:: people/students/sdasari.jpeg
