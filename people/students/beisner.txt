@@ -1,0 +1,5 @@
+name:: Ben Eisner
+url:: https://beisner.me/
+program:: PhD
+year:: 2020
+img:: people/students/nophoto_faceboard_white.jpeg
