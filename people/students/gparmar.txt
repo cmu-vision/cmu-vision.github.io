@@ -3,4 +3,3 @@ img:: people/students/gparmar.jpeg
 url:: https://gauravparmar.com/
 program:: PhD
 year:: 2022
-
