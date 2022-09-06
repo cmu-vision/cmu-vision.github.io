@@ -1,0 +1,5 @@
+name:: Mosam Dabhi
+img:: people/students/mdabhi.jpg
+url:: https://mosamdabhi.github.io
+program:: PhD
+year:: 2021
