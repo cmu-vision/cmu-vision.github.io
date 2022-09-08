@@ -1,0 +1,5 @@
+name:: Byeongjoo Ahn
+img:: people/students/bahn.jpg
+url:: https://byeongjooahn.com/
+program:: PhD 
+year:: 2017
