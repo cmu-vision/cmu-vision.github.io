@@ -1,0 +1,5 @@
+name:: Kangle Deng
+img:: people/students/kangled.jpeg
+url:: https://dunbar12138.github.io/
+program:: PhD
+year:: 2020

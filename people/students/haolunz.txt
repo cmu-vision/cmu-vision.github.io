@@ -1,0 +1,5 @@
+name:: Harry Zhang
+url:: https://harryzhangog.github.io/
+program:: MSR
+year:: 2021
+img:: people/students/haolunz.png

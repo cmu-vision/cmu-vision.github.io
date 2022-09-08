@@ -1,0 +1,5 @@
+name:: Ayush Jain
+img:: people/students/ayushj2.jpeg
+url:: https://ayushjain1144.github.io/
+program:: Masters in Robotics
+year:: 2021

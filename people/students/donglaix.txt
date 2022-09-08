@@ -1,0 +1,5 @@
+name:: Donglai Xiang
+img:: people/students/donglaix.jpg
+url:: https://xiangdonglai.github.io/
+program:: PhD 
+year:: 2019

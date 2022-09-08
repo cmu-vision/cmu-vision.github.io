@@ -1,0 +1,5 @@
+name:: Kenneth Shaw
+img:: people/students/kshaw.jpeg
+url:: https://kennyshaw.net
+program:: MSR
+year:: 2020

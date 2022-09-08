@@ -1,0 +1,5 @@
+name:: Nupur Kumari
+img:: people/students/nkumari.jpg
+url:: https://nupurkmr9.github.io
+program:: PhD
+year:: 2022

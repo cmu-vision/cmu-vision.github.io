@@ -1,0 +1,5 @@
+name:: Aarush Gupta
+img:: people/students/aarushg3.jpg
+url:: https://aarushgupta.github.io/
+program:: Masters in Robotics
+year:: 2021

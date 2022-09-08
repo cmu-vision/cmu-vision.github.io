@@ -1,0 +1,5 @@
+name:: Murtaza Dalal
+img:: people/students/mdalal.jpg
+url:: https://mihdalal.github.io/
+program:: PhD
+year:: 2020

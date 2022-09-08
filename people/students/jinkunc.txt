@@ -1,0 +1,5 @@
+name:: Jinkun Cao
+img:: people/students/jinkunc.jpg
+url:: https://www.jinkuncao.com
+program:: PhD 
+year:: 2020

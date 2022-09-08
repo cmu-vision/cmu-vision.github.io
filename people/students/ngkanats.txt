@@ -1,0 +1,5 @@
+name:: Nikos Gkanatsios
+url:: https://nickgkan.github.io/
+program:: PhD
+year:: 2020
+img:: people/students/ngkanats.jpg
