@@ -1,5 +1,5 @@
 name:: Allie Chang
-img:: people/students/alliechang.jpeg
+img:: people/students/alliechang.jpg
 url:: https://alliecc.github.io/
 program:: PhD
 year:: 2018
