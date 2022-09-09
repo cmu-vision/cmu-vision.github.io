@@ -1,0 +1,5 @@
+name:: Zhizhuo Zhou
+img:: people/students/zhizhuoz.jpg
+url:: https://www.zhiz.dev/
+program:: MSR
+year:: 2021
