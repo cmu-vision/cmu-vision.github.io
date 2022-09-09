@@ -1,0 +1,4 @@
+name:: Zoltan A. Milacski
+img:: people/postdocs/zmilacsk.jpg
+url:: http://milacski.web.elte.hu/
+year:: 2022
