@@ -1,0 +1,5 @@
+name:: N Dinesh Reddy
+img:: people/students/dnarapur.png
+url:: https://dineshreddy91.github.io/
+program:: PhD 
+year:: 2019
