@@ -1,0 +1,5 @@
+number:: 16-720B
+title:: Computer Vision
+url:: https://kriskitani.github.io/courses/16720B/
+img:: courses/16385.png
+description:: This course introduces the fundamental techniques used in computer vision, that is, the analysis of patterns in visual images to reconstruct and understand the objects and scenes that generated them. Topics covered include image processing basics, Hough Transforms, feature detection, feature descriptors, image representations, image classification and object detection. We will also cover camera geometry, multi-view geometry, stereo, 3D reconstruction from images, optical flow, motion analysis and tracking. Version B of 16-720 is intended for students with prior knowledge of computer vision and prior exposure to machine learning. Undergraduate students should take 16-385 which is the undergraduate version of the class.

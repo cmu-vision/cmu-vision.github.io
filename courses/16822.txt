@@ -1,0 +1,5 @@
+number:: 16-822
+title:: Geometry-based Methods in Vision
+url:: https://geometric3d.github.io/
+img:: https://geometric3d.github.io/data/teaserim.png
+description:: The course focuses on the geometric aspects of computer vision: The geometry of image formation and its use for 3D reconstruction and calibration. The objective of the course is to introduce the formal tools and results that are necessary for developing multi-view reconstruction algorithms. The fundamental tools introduced study affine and projective geometry, which are essential to the development of image formation models. These tools are then used to develop formal models of geometric image formation for a single view (camera model), two views (fundamental matrix), and three views (trifocal tensor); 3D reconstruction from multiple images; auto-calibration; and learning based methods.
