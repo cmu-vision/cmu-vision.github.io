@@ -1,0 +1,5 @@
+name:: Alex Li
+url:: http://alexanderli.com/
+program:: PhD
+year:: 2020
+img:: people/students/acl2.jpg
