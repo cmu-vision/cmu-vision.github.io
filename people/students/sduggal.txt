@@ -1,0 +1,5 @@
+name:: Shivam Duggal
+img:: people/students/sduggal.jpg
+url:: https://shivamduggal4.github.io/
+program:: MSR
+year:: 2021
