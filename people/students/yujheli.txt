@@ -1,0 +1,5 @@
+name:: Yu-Jhe Li
+url:: https://yujheli.github.io/
+program:: PhD
+year:: 2020
+img:: people/students/yujheli.jpeg
