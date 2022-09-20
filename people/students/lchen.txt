@@ -1,0 +1,5 @@
+name:: Lili Chen
+img:: people/students/lchen.jpeg
+url:: https://lilichen.me/
+program:: PhD
+year:: 2022
