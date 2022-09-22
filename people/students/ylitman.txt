@@ -1,0 +1,5 @@
+name:: Yehonathan Litman
+url:: https://yehonathanlitman.github.io/
+program:: PhD
+year:: 2022
+img:: people/students/ylitman.jpg
