@@ -1,0 +1,5 @@
+name:: Aditya Kannan
+url:: https://adityak77.github.io/
+program:: MS
+year:: 2022
+img:: people/students/akannan2.png
