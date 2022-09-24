@@ -1,0 +1,5 @@
+name:: Qichen Fu
+url:: https://fuqichen1998.github.io/
+program:: MS
+year:: 2020
+img:: people/students/qichenf.png
