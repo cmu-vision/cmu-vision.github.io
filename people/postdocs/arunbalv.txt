@@ -1,0 +1,4 @@
+name:: Arun Balajee Vasudevan
+img:: https://raw.githubusercontent.com/arunbalajeev/arunbalajeev.github.io/main/arun.jpg
+url:: https://arunbalajeev.github.io/
+year:: 2022
