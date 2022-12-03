@@ -1,4 +1,4 @@
 title:: Efficient Spatially Sparse Inference for Conditional GANs and Diffusion Models
 url:: https://www.cs.cmu.edu/~sige/
-img:: https://www.cs.cmu.edu/~sige/images/method.gif
+img:: https://raw.githubusercontent.com/lmxyy/sige/main/assets/method.gif
 year:: 2022
