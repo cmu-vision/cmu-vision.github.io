@@ -1,0 +1,5 @@
+number:: 16-726
+title:: Learning-Based Image Synthesis
+url:: https://learning-image-synthesis.github.io/
+img:: https://www.cs.cmu.edu/~junyanz/imgs/16726.jpg
+description:: This course introduces machine learning methods for image and video synthesis. The objectives of synthesis research vary from modeling statistical distributions of visual data, through realistic picture-perfect recreations of the world in graphics, and all the way to providing interactive tools for artistic expression. Key machine learning algorithms will be presented, ranging from classical learning methods (e.g., nearest neighbor, PCA) to deep learning models (e.g., ConvNets, NeRF, deep generative models, including GANs, VAEs, autoregressive models, and diffusion models). Finally, we will discuss image and video forensics methods for detecting synthetic content. Students will learn to build practical applications and create new visual effects using their own photos and videos.
