@@ -1,0 +1,5 @@
+name:: Shagun Uppal
+url:: https://shagunuppal.github.io/
+program:: MSR
+year:: 2022
+img:: people/students/shagun.jpg
