@@ -1,0 +1,5 @@
+name:: Ananye Agarwal
+img:: people/students/anag.jpg
+url:: http://anag.me/
+program:: PhD
+year:: 2021
