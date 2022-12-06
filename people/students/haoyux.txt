@@ -1,5 +1,5 @@
 name:: Haoyu Xiong
-img:: https://drive.google.com/file/d/1ssqOcXfJeS1L0mc8MwT14MssmseT2yCD/view?usp=sharing
+img:: https://drive.google.com/file/d/1UTGBYk0pvHPBTeUA7svE-PAj-8YeEAA7/view?usp=sharing
 url:: https://haoyu-x.github.io/
 program:: MS
 year:: 2022
