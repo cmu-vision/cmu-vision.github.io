@@ -1,4 +1,4 @@
-number:: 16-889
+number:: 16-825
 title:: Learning for 3D Vision
 url:: https://learning3d.github.io/
 img:: courses/l43d.png
