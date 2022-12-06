@@ -1,4 +1,4 @@
-number:: 16-720B
+number:: 16-720A/B
 title:: Computer Vision
 url:: https://kriskitani.github.io/courses/16720B/
 img:: courses/16385.png
