@@ -1,0 +1,5 @@
+name:: Jinqi Luo
+url:: https://peterljq.github.io
+program:: MSR
+year:: 2021
+img:: people/students/jinqil.png
