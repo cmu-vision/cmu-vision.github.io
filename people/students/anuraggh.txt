@@ -1,0 +1,5 @@
+name:: Anurag Ghosh
+img:: people/students/anuraggh.jpg
+url:: https://anuragxel.github.io
+program:: MSR
+year:: 2021
