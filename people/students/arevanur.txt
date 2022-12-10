@@ -1,0 +1,5 @@
+name:: Ambareesh Revanur
+url:: https://revanurambareesh.github.io/
+program:: MSR
+year:: 2021
+img:: people/students/nophoto_faceboard_white.jpeg
