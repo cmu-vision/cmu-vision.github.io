@@ -1,0 +1,5 @@
+name:: Ruihan Gao
+img:: people/students/ruihang.jpeg
+url:: https://ruihangao.com
+program:: PhD
+year:: 2021
