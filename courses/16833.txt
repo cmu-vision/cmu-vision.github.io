@@ -1,0 +1,5 @@
+number:: 16-833
+title:: Robot Localization and Mapping
+url:: https://www.cs.cmu.edu/~kaess/teaching/16833/
+img:: courses/16833.png
+description:: This course focuses on the optimization aspects of state estimation, localization, and mapping. Localization and mapping are fundamental capabilities for mobile robots operating in the real world. Even more challenging than these individual problems is their combination: simultaneous localization and mapping (SLAM). Robust and scalable solutions are needed that can handle the uncertainty inherent in sensor measurements, while providing localization and map estimates in real-time. We will investigate suitable efficient probabilistic inference algorithms at the intersection of linear algebra and probabilistic graphical models. We will also explore some state-of-the-art systems.
