@@ -1,0 +1,5 @@
+name:: Sriram Narayanan
+img:: people/students/snochurn.jpg
+url:: https://nnsriram97.github.io/
+program:: PhD 
+year:: 2022
