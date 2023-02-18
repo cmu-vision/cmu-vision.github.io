@@ -1,0 +1,5 @@
+name:: Anish Madan
+url:: https://anishmadan23.github.io/
+program:: MSR
+year:: 2022
+img:: people/students/anishmad.jpg
