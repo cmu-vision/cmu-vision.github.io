@@ -1,0 +1,5 @@
+name:: Mohamad Qadri
+img:: people/students/mqadri.jpg
+url:: https://www.cs.cmu.edu/~mqadri/
+program:: PhD
+year:: 2021
