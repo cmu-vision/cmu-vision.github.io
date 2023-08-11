@@ -1,0 +1,5 @@
+name:: Cheng-Yen (Wesley) Hsieh
+img:: people/students/chengyeh.jpg
+url:: https://github.com/WesleyHsieh0806/Wesley-Hsieh
+program:: MS
+year:: 2022
