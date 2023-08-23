@@ -1,0 +1,4 @@
+title:: RAC: Reconstructing Animatable Categories from Videos
+url:: ihttps://gengshan-y.github.io/rac-www/
+img:: https://gengshan-y.github.io/images/rac.gif
+year:: 2023
