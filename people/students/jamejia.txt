@@ -1,5 +1,5 @@
 name:: Jared Mejia
-img:: people/students/jamejia.png
+img:: people/students/jamejia.jpg
 url:: https://jaredmejia.github.io/
 program:: MS
 year:: 2022
