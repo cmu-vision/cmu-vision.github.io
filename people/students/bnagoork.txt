@@ -1,0 +1,6 @@
+name:: Bharath Raj N
+img:: people/students/bnagoork.jpeg
+url:: https://thatbrguy.github.io/
+program:: MS
+year:: 2022
+
