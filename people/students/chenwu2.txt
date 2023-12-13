@@ -1,0 +1,5 @@
+name:: Chen Wu
+img:: people/students/chenwu2.jpeg
+url:: https://chenwu.io/
+program:: PhD
+year:: 2023
