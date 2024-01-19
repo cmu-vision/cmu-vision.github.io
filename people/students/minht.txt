@@ -1,0 +1,5 @@
+name:: Minh Tran
+url:: https://minhtcai.github.io/
+program:: MSCV
+year:: 2022
+img:: people/students/minht.jpg
