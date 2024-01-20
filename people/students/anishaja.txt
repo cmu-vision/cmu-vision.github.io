@@ -1,0 +1,5 @@
+name:: Anisha Jain
+img:: people/students/anishaja.jpg
+url:: https://anishajain22.github.io/
+program:: MS
+year:: 2023
