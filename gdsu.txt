@@ -1,0 +1,5 @@
+name:: Grace Su
+img:: people/students/gdsu.jpeg
+url:: https://graceduansu.github.io/
+program:: MS
+year:: 2023
