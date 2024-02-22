@@ -1,0 +1,5 @@
+name:: Maxwell Jones
+img:: https://maxwelljon.es/images/me.jpg
+url:: https://maxwelljon.es/
+program:: MS
+year:: 2019
