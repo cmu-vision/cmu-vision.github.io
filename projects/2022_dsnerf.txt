@@ -1,0 +1,4 @@
+title:: Depth-supervised NeRF: Fewer Views and Faster Training for Free
+url:: https://www.cs.cmu.edu/~dsnerf/
+img:: https://dunbar12138.github.io/images/dsnerf/thumbnail_gif.gif
+year:: 2022
