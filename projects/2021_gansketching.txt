@@ -1,0 +1,4 @@
+title:: Sketch Your Own GAN
+url:: https://peterwang512.github.io/GANSketching
+img:: https://peterwang512.github.io/index_files/gansketching.jpg
+year:: 2021
