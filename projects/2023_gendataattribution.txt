@@ -1,0 +1,4 @@
+title:: Evaluating Data Attribution for Text-to-Image Models
+url:: https://peterwang512.github.io/GenDataAttribution/
+img:: https://peterwang512.github.io/index_files/data_attribution.jpg
+year:: 2023

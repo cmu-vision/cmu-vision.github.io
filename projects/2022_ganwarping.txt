@@ -1,0 +1,4 @@
+title:: Rewriting Geometric Rules of a GAN
+url:: https://peterwang512.github.io/GANWarping
+img:: https://peterwang512.github.io/index_files/ganwarping.gif
+year:: 2022
