@@ -1,4 +1,4 @@
 title:: Controllable Visual-Tactile Synthesis
 url:: https://visual-tactile-synthesis.github.io/
-img:: https://github.com/RuihanGao/visual-tactile-synthesis/blob/main/assets/teaser_10s.gif
+img:: https://raw.githubusercontent.com/RuihanGao/visual-tactile-synthesis/main/assets/teaser_10s.gif
 year:: 2023

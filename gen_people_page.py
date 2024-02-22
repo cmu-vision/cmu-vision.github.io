@@ -2,6 +2,8 @@ import os
 import glob
 import random
 
+CURRENT_YEAR = 2024
+
 def read_file(fpath):
     with open(fpath, 'r') as f:
         content = f.read()
@@ -81,6 +83,8 @@ if __name__ == '__main__':
         elems, keys = parse_person_info(id, folder)
         if 'year' not in keys:
             continue
+        if (int(elems['year']) < (CURRENT_YEAR - 2)):
+            continue
         people_string += get_person_html_string(id, elems, keys)
     page_string = page_string.replace('<!-- autogen postdocs -->', '<!-- autogen postdocs -->\n' + people_string)
 
@@ -97,6 +101,13 @@ if __name__ == '__main__':
             continue
         if 'program' not in keys:
             continue
+        if 'MS' not in elems['program'] and 'PhD' not in elems['program']:
+            continue
+        if 'MS' in elems['program'] and (int(elems['year']) < (CURRENT_YEAR - 2)):
+            continue
+        if 'PhD' in elems['program'] and (int(elems['year']) < (CURRENT_YEAR - 7)):
+            continue
+
         people_string += get_person_html_string(id, elems, keys)
     page_string = page_string.replace('<!-- autogen students -->', '<!-- autogen students -->\n' + people_string)
 

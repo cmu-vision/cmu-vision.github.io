@@ -1,4 +1,0 @@
-name:: Xingyu Liu
-img:: people/postdocs/xingyul3.jpeg
-url:: https://xingyul.github.io/
-year:: 2020

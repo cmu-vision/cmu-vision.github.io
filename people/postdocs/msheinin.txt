@@ -1,4 +1,0 @@
-name:: Mark Sheinin
-img:: https://pbs.twimg.com/profile_images/1280159950891823104/O_Zrh2jr_400x400.jpg
-url:: https://www.marksheinin.com
-year:: 2019

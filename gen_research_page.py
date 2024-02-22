@@ -3,7 +3,7 @@ import glob
 import random
 
 MAX_PROJECTS = 24
-CURRENT_YEAR = 2022
+CURRENT_YEAR = 2024
 
 def read_file(fpath):
     with open(fpath, 'r') as f:
@@ -73,7 +73,7 @@ if __name__ == '__main__':
         elems, keys = parse_project_info(id, folder)
         if 'year' not in keys:
             pass
-        if int(elems['year']) < (CURRENT_YEAR - 1):
+        if int(elems['year']) < (CURRENT_YEAR - 2):
             continue
 
         project_string += get_project_html_string(id, elems, keys)
