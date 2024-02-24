@@ -1,5 +1,5 @@
 name:: Muyang Li
-img:: people/students/muyangli.jpeg
+img:: people/students/muyangli.jpg
 url:: https://lmxyy.me
 program:: MSR
 year:: 2021
