@@ -1,0 +1,4 @@
+name:: Sean J. Liu
+img:: http://graphics.cs.cmu.edu/wp/wp-content/uploads/2024/02/sean_ski.jpg
+url:: https://lseancs.github.io/
+year:: 2023
