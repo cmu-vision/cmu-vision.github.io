@@ -1,0 +1,5 @@
+name:: Neham Jain
+img:: people/students/nhjain.jpg
+url:: https://github.com/nehamjain10
+program:: Masters in Robotics
+year:: 2023

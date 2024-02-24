@@ -1,0 +1,5 @@
+name:: Sreekar Ranganathan
+img:: people/students/ssrangan.png
+url:: https://sreekarsr.github.io/
+program:: PhD
+year:: 2023

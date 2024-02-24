@@ -1,0 +1,5 @@
+name:: Bailey Miller
+img:: people/students/bmmiller.jpg
+url:: https://www.bailey-miller.com/
+program:: PhD
+year:: 2020
