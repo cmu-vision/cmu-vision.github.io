@@ -1,0 +1,5 @@
+name:: Bakari Hassan
+img:: people/students/bhassan.jpg
+url:: http://www.linkedin.com/in/bakarih
+program:: PhD
+year:: 2019

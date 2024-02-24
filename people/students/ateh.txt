@@ -1,0 +1,5 @@
+name:: Arjun Teh
+img:: people/students/ateh.png
+url:: http://www.cs.cmu.edu/~ateh/
+program:: PhD
+year:: 2019

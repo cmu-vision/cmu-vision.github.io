@@ -1,0 +1,5 @@
+name:: Benran Hu
+img:: people/students/benranh.jpg
+url:: https://zymk9.github.io/
+program:: Masters in Computer Science
+year:: 2023

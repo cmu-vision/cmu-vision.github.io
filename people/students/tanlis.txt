@@ -1,0 +1,5 @@
+name:: Tanli Su
+img:: people/students/tanlis.jpg
+url:: https://tanlisu.me/
+program:: PhD
+year:: 2021
