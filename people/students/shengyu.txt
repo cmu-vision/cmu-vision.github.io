@@ -1,0 +1,5 @@
+name:: Sheng-Yu Wang
+img:: people/students/shengyu.jpeg
+url:: https://peterwang512.github.io/
+program:: PhD
+year:: 2020
