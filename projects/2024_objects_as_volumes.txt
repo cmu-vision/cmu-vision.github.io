@@ -1,0 +1,4 @@
+title:: Objects as volumes: A stochastic geometry view of opaque solids
+url:: https://imaging.cs.cmu.edu/volumetric_opaque_solids/
+img:: https://imaging.cs.cmu.edu/volumetric_opaque_solids/index_files/objects_as_volumes.png
+year:: 2024
