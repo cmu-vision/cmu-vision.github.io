@@ -1,4 +1,4 @@
 title:: Swept-Angle Synthetic Wavelength Interferometry
 url:: https://imaging.cs.cmu.edu/swept_angle_swi/
-img:: https://imaging.cs.cmu.edu/swept_angle_swi/assets/swi.png
+img:: https://imaging.cs.cmu.edu/swept_angle_swi/index_files/swi.png
 year:: 2023
