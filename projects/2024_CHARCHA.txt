@@ -1,4 +1,4 @@
 title:: Secure & Personalized Music-to-Video Generation via CHARCHA
 url:: https://arxiv.org/abs/2502.02610
-img:: https://drive.google.com/file/d/1aoftABm52Hz53lX__S0ZUOmHBCBClnNi/view?usp=sharing
+img:: https://i.ibb.co/G4RNX4fx/Personalization-Compare-small.png
 year:: 2024
