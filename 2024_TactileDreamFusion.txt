@@ -1,4 +1,0 @@
-title:: Tactile DreamFusion: Exploiting Tactile Sensing for 3D Generation
-url:: https://ruihangao.github.io/TactileDreamFusion/
-img:: https://github.com/RuihanGao/TactileDreamFusion/blob/gh-pages/static/images/TactileDreamFusion_teaser_CMUVision.png
-year:: 2024
