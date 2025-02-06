@@ -1,0 +1,5 @@
+name:: Mehul Agarwal
+url:: https://mehul.al/
+program:: MS
+year:: 2023
+img:: people/students/mehula.png
