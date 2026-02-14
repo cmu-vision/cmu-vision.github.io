@@ -1,0 +1,5 @@
+title:: Split-Lohmann Multifocal Displays for VR
+url:: http://imagesci.ece.cmu.edu/files/paper/2023/Split_Lohmann_SIG23.pdf
+img:: https://imaging.cs.cmu.edu/split_lohmann/static/images/overview.png
+year:: 2023
+topics:: Computational Imaging

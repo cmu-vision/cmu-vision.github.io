@@ -1,0 +1,5 @@
+title:: DressRecon: Freeform 4D Human Reconstruction from Monocular Video
+url:: https://jefftan969.github.io/dressrecon/
+img:: https://jefftan969.github.io/dressrecon/img/dressrecon_icon.gif
+year:: 2025
+topics:: 3D Vision

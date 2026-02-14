@@ -1,0 +1,5 @@
+title:: Generating Physically Stable and Buildable Brick Structures from Text
+url:: https://avalovelace1.github.io/BrickGPT/
+img:: https://avalovelace1.github.io/BrickGPT/images-optimized/teaser-full.webp
+year:: 2025
+topics:: Generative Models, 3D Vision

@@ -1,3 +1,4 @@
 name:: Ioannis Gkioulekas
 url:: https://www.cs.cmu.edu/~igkioule/
 img:: https://www.cs.cmu.edu/~igkioule/index_files/photo_square.png
+interests:: Computational Imaging, Physics-Based Vision, Inverse Rendering

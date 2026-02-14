@@ -1,0 +1,5 @@
+title:: Generating Multi-Image Synthetic Data for Text-to-Image Customization
+url:: https://www.cs.cmu.edu/~syncd-project/
+img:: https://www.cs.cmu.edu/~junyanz/imgs/kumari_syncd2025.gif
+year:: 2025
+topics:: Generative Models

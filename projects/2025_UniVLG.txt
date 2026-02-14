@@ -1,0 +1,5 @@
+title:: Unifying 2D and 3D Vision-Language Understanding
+url:: https://univlg.github.io/
+img:: https://www.cs.cmu.edu/~katef/images/univgl.png
+year:: 2025
+topics:: Scene Understanding

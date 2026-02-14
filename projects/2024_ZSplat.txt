@@ -1,0 +1,5 @@
+title:: Z-Splat: Z-axis Gaussian Splatting for Camera-Sonar Fusion
+url:: https://www.ri.cmu.edu/pub/Qu24pami.html
+img:: assets/project.jpeg
+year:: 2024
+topics:: 3D Vision, Computational Imaging

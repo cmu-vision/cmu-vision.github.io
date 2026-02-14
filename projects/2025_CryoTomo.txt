@@ -1,0 +1,5 @@
+title:: Unsupervised Identification of Protein Compositions via Content-Transformation Disentanglement
+url:: https://xulabs.github.io/publication/
+img:: https://iccv.thecvf.com/media/PosterPDFs/ICCV%202025/2498.png?t=1759768119.8092356
+year:: 2025
+topics:: Recognition & Detection

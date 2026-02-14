@@ -1,3 +1,4 @@
 name:: Laszlo A. Jeni
 url:: https://www.laszlojeni.com/
 img:: people/faculty/laszlo.png
+interests:: Face Analysis, Digital Humans, Affective Computing

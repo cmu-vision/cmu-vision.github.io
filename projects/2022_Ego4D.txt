@@ -1,0 +1,5 @@
+title:: Ego4D: Around the World in 3,000 Hours of Egocentric Video
+url:: https://ego4d-data.org/
+img:: https://ego4d-data.org/assets/images/ego-4d-01.png
+year:: 2022
+topics:: Recognition & Detection, Scene Understanding

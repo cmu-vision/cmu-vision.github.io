@@ -2,3 +2,4 @@ title:: 3D reconstruction with fast dipole sums
 url:: https://imaging.cs.cmu.edu/fast_dipole_sums/
 img:: https://imaging.cs.cmu.edu/fast_dipole_sums/index_files/fast_dipole_sums.png
 year:: 2024
+topics:: 3D Vision, Computational Imaging

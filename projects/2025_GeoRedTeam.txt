@@ -1,0 +1,5 @@
+title:: Geometric Red-Teaming for Robotic Manipulation
+url:: https://georedteam.github.io/
+img:: https://r-pad.github.io/pics/corl2025_grt.gif
+year:: 2025
+topics:: Robotics

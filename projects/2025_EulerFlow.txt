@@ -1,0 +1,5 @@
+title:: Neural Eulerian Scene Flow Fields
+url:: https://vedder.io/eulerflow
+img:: https://vedder.io/img/static/eulerflow/bird.gif
+year:: 2025
+topics:: 3D Vision, Scene Understanding

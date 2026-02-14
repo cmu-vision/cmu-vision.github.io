@@ -1,0 +1,5 @@
+title:: SplatSim: Zero-Shot Sim2Real Transfer of RGB Manipulation Policies
+url:: https://splatsim.github.io/
+img:: https://r-pad.github.io/pics/splatsim.gif
+year:: 2025
+topics:: Robotics, 3D Vision

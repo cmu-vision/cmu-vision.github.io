@@ -1,4 +1,0 @@
-title:: Fuzzy Metaballs: Approximate Differentiable Rendering with Algebraic Surfaces
-url:: https://leonidk.github.io/direct_gmm/
-img:: https://leonidk.github.io/direct_gmm/images/header.png
-year:: 2019

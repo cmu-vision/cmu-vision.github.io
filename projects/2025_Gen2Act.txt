@@ -1,0 +1,5 @@
+title:: Gen2Act: Human Video Generation in Novel Scenarios enables Generalizable Robot Manipulation
+url:: https://homangab.github.io/gen2act/
+img:: https://homangab.github.io/pics/gen2act.gif
+year:: 2025
+topics:: Robotics, Generative Models

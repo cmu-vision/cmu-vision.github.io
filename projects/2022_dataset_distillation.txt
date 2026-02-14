@@ -1,4 +1,0 @@
-title:: Dataset Distillation by Matching Training Trajectories
-url:: https://georgecazenavette.github.io/mtt-distillation/
-img:: https://georgecazenavette.github.io/mtt-distillation/resources/teaser.png
-year:: 2022

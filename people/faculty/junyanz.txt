@@ -1,3 +1,4 @@
 name:: Jun-Yan Zhu
 url:: https://www.cs.cmu.edu/~junyanz/
 img:: people/faculty/junyanz.jpeg
+interests:: Generative Models, Image Synthesis, Neural Rendering

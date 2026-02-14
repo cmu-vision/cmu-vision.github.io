@@ -1,3 +1,4 @@
 name:: Kris Kitani
 url:: https://kriskitani.github.io/
 img:: people/faculty/kkitani.jpeg
+interests:: Egocentric Vision, Activity Recognition, Autonomous Systems

@@ -1,0 +1,5 @@
+title:: FlowBotHD: History-Aware Diffuser Handling Ambiguities in Articulated Objects
+url:: https://flowbothd.github.io/
+img:: https://r-pad.github.io/pics/corl2024_flowbothd.gif
+year:: 2024
+topics:: Robotics

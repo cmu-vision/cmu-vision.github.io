@@ -2,3 +2,4 @@ title:: Bottom Up Top Down Detection Transformers for Language Grounding in Imag
 url:: https://butd-detr.github.io/
 img:: https://butd-detr.github.io/static/images/teaser.png
 year:: 2022
+topics:: Recognition & Detection, Scene Understanding

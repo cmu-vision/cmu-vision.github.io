@@ -1,0 +1,5 @@
+title:: Neural MP: A Generalist Neural Motion Planner
+url:: https://mihdalal.github.io/neuralmotionplanner/
+img:: https://mihdalal.github.io/neuralmotionplanner/resources/method%20figure.png
+year:: 2024
+topics:: Robotics

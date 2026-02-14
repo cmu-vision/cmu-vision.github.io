@@ -1,0 +1,5 @@
+title:: Turbo3D: Ultra-fast Text-to-3D Generation
+url:: https://turbo-3d.github.io/
+img:: https://hzhupku.github.io/image/pubpage/turbo3d.gif
+year:: 2025
+topics:: 3D Vision, Generative Models

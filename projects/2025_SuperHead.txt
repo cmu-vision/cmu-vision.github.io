@@ -1,0 +1,5 @@
+title:: From Blurry to Believable: Enhancing Low-quality Talking Heads with 3D Generative Priors
+url:: https://github.com/humansensinglab/super-head
+img:: https://github.com/humansensinglab/super-head/raw/main/imgs/teaser.png
+year:: 2025
+topics:: Generative Models, 3D Vision

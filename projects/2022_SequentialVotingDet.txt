@@ -2,3 +2,4 @@ title:: Sequential Voting with Relational Box Fields for Active Object Detection
 url:: https://fuqichen1998.github.io/SequentialVotingDet/
 img:: https://fuqichen1998.github.io/SequentialVotingDet/resources/teaser.png
 year:: 2022
+topics:: Recognition & Detection, Robotics

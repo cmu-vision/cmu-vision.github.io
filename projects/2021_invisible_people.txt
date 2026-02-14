@@ -2,3 +2,4 @@ title:: Detecting Invisible People
 url:: http://www.cs.cmu.edu/~tkhurana/invisible.htm
 img:: https://www.cs.cmu.edu/~tkhurana/imgs/invisible-lowres.gif
 year:: 2021
+topics:: Recognition & Detection

@@ -1,4 +1,0 @@
-title:: BANMo: Building Animatable 3D Neural Models from Many Casual Videos
-url:: https://banmo-www.github.io/
-img:: https://banmo-www.github.io/vids/teaser-small.gif
-year:: 2021

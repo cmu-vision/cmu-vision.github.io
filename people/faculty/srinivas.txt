@@ -1,3 +1,4 @@
 name:: Srinivasa Narasimhan
 img:: people/faculty/srinivas.jpeg
 url:: https://www.cs.cmu.edu/~srinivas/
+interests:: Computational Imaging, Physics-Based Vision, 3D Reconstruction

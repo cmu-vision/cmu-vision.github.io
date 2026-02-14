@@ -1,4 +1,0 @@
-title:: Fuzzy Metaballs: Approximate Differentiable Rendering with Algebraic Surfaces
-url:: https://leonidk.github.io/fuzzy-metaballs
-img:: https://leonidk.github.io/fuzzy-metaballs/images/sfs3.gif
-year:: 2022

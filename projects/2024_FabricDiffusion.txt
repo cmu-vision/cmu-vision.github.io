@@ -1,0 +1,5 @@
+title:: Fabric Diffusion: High-Fidelity Texture Transfer for 3D Garments from In-The-Wild Images
+url:: https://github.com/humansensinglab/fabric-diffusion
+img:: https://github.com/humansensinglab/fabric-diffusion/raw/main/docs/teaser.jpg
+year:: 2024
+topics:: Generative Models, 3D Vision

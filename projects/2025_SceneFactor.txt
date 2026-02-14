@@ -1,0 +1,5 @@
+title:: SceneFactor: Factored Latent 3D Diffusion for Controllable 3D Scene Generation
+url:: https://alexeybokhovkin.github.io/scenefactor/
+img:: https://www.3dunderstanding.org/papers/2025/bokhovkin2025scenefactor/thumb.jpg
+year:: 2025
+topics:: 3D Vision, Generative Models

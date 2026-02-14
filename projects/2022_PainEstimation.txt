@@ -1,0 +1,5 @@
+title:: Automatic Estimation of Self-Reported Pain by Trajectory Analysis
+url:: https://arxiv.org/pdf/2209.01813.pdf
+img:: https://cdn.ncbi.nlm.nih.gov/pmc/blobs/0dff/9708064/37849530e19d/nihms-1836827-f0007.jpg
+year:: 2022
+topics:: Recognition & Detection

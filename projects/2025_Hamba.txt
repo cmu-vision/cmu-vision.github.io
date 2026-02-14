@@ -1,0 +1,5 @@
+title:: Hamba: Single-view 3D Hand Reconstruction with Graph-guided Bi-Scanning Mamba
+url:: https://github.com/humansensinglab/Hamba
+img:: https://raw.githubusercontent.com/humansensinglab/Hamba/main/docs/pics/Teaser.jpg
+year:: 2025
+topics:: 3D Vision, Recognition & Detection

@@ -1,0 +1,5 @@
+title:: HoloOcean: A Full-Features Marine Robotics Simulator
+url:: https://www.ri.cmu.edu/pub/Potokar24joe.html
+img:: https://robots.et.byu.edu/holoocean/images/sonar_result.png
+year:: 2024
+topics:: Robotics

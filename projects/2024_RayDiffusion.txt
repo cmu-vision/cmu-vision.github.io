@@ -1,0 +1,5 @@
+title:: Cameras as Rays: Pose Estimation via Ray Diffusion
+url:: https://jasonyzhang.com/RayDiffusion/
+img:: https://jasonyzhang.com/RayDiffusion/resources/raydiffusion_thumb.jpg
+year:: 2024
+topics:: 3D Vision

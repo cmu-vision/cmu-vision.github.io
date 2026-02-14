@@ -1,0 +1,5 @@
+title:: Neural Inverse Rendering from Propagating Light
+url:: https://anaghmalik.com/InvProp/
+img:: https://arxiv.org/html/2506.05347v1/x1.png
+year:: 2025
+topics:: Computational Imaging

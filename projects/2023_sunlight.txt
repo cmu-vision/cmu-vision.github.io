@@ -2,3 +2,4 @@ title:: Passive Micron-scale Time-of-Flight with Sunlight Interferometry
 url:: https://imaging.cs.cmu.edu/sunlight_interferometry/
 img:: https://imaging.cs.cmu.edu/sunlight_interferometry/index_files/sunlight.png
 year:: 2023
+topics:: Computational Imaging

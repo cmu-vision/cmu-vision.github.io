@@ -2,3 +2,4 @@ title:: Ablating Concepts in Text-to-Image Diffusion Models
 url:: https://www.cs.cmu.edu/~concept-ablation/
 img:: https://nupurkmr9.github.io/img/concept_ablation.jpg
 year:: 2023
+topics:: Generative Models

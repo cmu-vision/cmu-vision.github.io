@@ -1,0 +1,5 @@
+title:: HACMan++: Spatially-Grounded Motion Primitives for Manipulation
+url:: https://sgmp-rss2024.github.io/
+img:: https://r-pad.github.io/pics/hacman++.gif
+year:: 2024
+topics:: Robotics

@@ -1,0 +1,5 @@
+title:: 3D Scanning with Position-Sensitive Detectors
+url:: http://imagesci.ece.cmu.edu/files/paper/2023/PSD_ICCV23.pdf
+img:: http://imagesci.ece.cmu.edu/images/pubpics/PSD.gif
+year:: 2023
+topics:: Computational Imaging, 3D Vision

@@ -1,3 +1,4 @@
 name:: Zakia Hammal
 img:: https://www.ri.cmu.edu/app/uploads/2017/01/hammal_zakia-1.jpg
 url:: https://www.ri.cmu.edu/personal-pages/ZakiaHammal/
+interests:: Affective Computing, Face Analysis, Human Behavior Modeling

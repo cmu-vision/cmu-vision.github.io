@@ -1,0 +1,5 @@
+title:: Generative Photomontage
+url:: https://lseancs.github.io/generativephotomontage/
+img:: https://www.cs.cmu.edu/~junyanz/imgs/Liu_2024generative.jpg
+year:: 2025
+topics:: Generative Models

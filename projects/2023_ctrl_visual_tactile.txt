@@ -2,3 +2,4 @@ title:: Controllable Visual-Tactile Synthesis
 url:: https://visual-tactile-synthesis.github.io/
 img:: https://raw.githubusercontent.com/RuihanGao/visual-tactile-synthesis/main/assets/teaser_10s.gif
 year:: 2023
+topics:: Robotics, Generative Models

@@ -1,0 +1,5 @@
+title:: ArticuBot: Learning Universal Articulated Object Manipulation Policy
+url:: https://articubot.github.io/
+img:: https://r-pad.github.io/pics/articubot.gif
+year:: 2025
+topics:: Robotics

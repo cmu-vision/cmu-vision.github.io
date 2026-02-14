@@ -1,3 +1,4 @@
 name:: Min Xu
 url:: https://xulabs.github.io/
 img:: people/faculty/mxu1.jpg
+interests:: Computational Biology, Biomedical Imaging, Machine Learning

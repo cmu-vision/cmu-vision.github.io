@@ -1,0 +1,5 @@
+title:: Local Policies Enable Zero-shot Long-horizon Manipulation
+url:: https://mihdalal.github.io/manipgen/
+img:: https://mihdalal.github.io/manipgen/resources/method_figure.png
+year:: 2024
+topics:: Robotics

@@ -1,4 +1,0 @@
-title:: Dynamics-Regulated Kinematic Policy for Egocentric Pose Estimation
-url:: https://zhengyiluo.github.io/projects/kin_poly/
-img:: https://zhengyiluo.github.io/assets/img/projects/kin_poly/teaser.gif
-year:: 2021

@@ -1,4 +1,0 @@
-title:: Megahertz Light Steering without Moving Parts
-url:: https://imaging.cs.cmu.edu/ultrafast_steering/
-img:: https://imaging.cs.cmu.edu/ultrafast_steering/index_files/megahertz.png
-year:: 2023

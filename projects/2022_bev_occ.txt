@@ -2,3 +2,4 @@ title:: Differentiable Raycasting for Self-supervised Occupancy Forecasting
 url:: http://www.cs.cmu.edu/~tkhurana/pdf/2022_bev_occ.pdf
 img:: https://www.cs.cmu.edu/~tkhurana/imgs/occupancy.gif
 year:: 2022
+topics:: 3D Vision, Robotics

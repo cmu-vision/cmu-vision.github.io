@@ -1,4 +1,0 @@
-title:: PPR: Physically Plausible Reconstruction from Monocular Videos
-url:: https://gengshan-y.github.io/ppr/
-img:: https://gengshan-y.github.io/ppr/materials/images/teaser.jpeg
-year:: 2023

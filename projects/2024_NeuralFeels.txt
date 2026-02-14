@@ -1,0 +1,5 @@
+title:: Neural Feels with Neural Fields: Visuo-tactile Perception for In-hand Manipulation
+url:: https://www.ri.cmu.edu/pub/Suresh24sr.html
+img:: https://suddhu.github.io/neural-feels/img/cover.jpg
+year:: 2024
+topics:: Robotics, 3D Vision

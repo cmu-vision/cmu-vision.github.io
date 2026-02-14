@@ -1,3 +1,4 @@
 name:: Deva Ramanan
 url:: https://www.cs.cmu.edu/~deva/
 img:: people/faculty/deva.png
+interests:: Object Recognition, 3D Vision, Autonomous Driving

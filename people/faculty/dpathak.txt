@@ -1,3 +1,4 @@
 name:: Deepak Pathak
 url:: https://www.cs.cmu.edu/~dpathak/
 img:: people/faculty/dpathak.jpeg
+interests:: Robot Learning, Self-Supervised Learning, Embodied AI

@@ -1,3 +1,4 @@
 name:: Abhinav Gupta
 url:: https://www.cs.cmu.edu/~abhinavg/
 img:: https://www.cs.cmu.edu/~abhinavg/projects/me.jpg
+interests:: Self-Supervised Learning, Robot Learning, Visual Reasoning

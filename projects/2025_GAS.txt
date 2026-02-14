@@ -1,0 +1,5 @@
+title:: GAS: Generative Avatar Synthesis from a Single Image
+url:: https://github.com/humansensinglab/GAS
+img:: https://raw.githubusercontent.com/humansensinglab/GAS/main/assets/teaser.png
+year:: 2025
+topics:: Generative Models, 3D Vision

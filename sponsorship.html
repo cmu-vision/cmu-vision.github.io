@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sponsorship — Computer Vision @ CMU</title>
+  <link rel="icon" href="./assets/ri-favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="./index.html" class="nav__logo">
+        <img src="./assets/logo.svg" alt="Computer Vision @ Carnegie Mellon">
+      </a>
+      <button class="nav__hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav__links">
+        <a href="./index.html">Overview</a>
+        <a href="./people.html">People</a>
+        <a href="./research.html">Research</a>
+        <a href="./courses.html">Courses</a>
+        <a href="./sponsorship.html" class="active">Sponsorship</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <div class="container">
+      <h1 class="page-header__title">Partner With Us</h1>
+      <p class="page-header__subtitle">Join leading organizations that collaborate with CMU's Computer Vision group to advance the frontiers of visual AI.</p>
+    </div>
+  </div>
+
+  <!-- Intro -->
+  <section class="section">
+    <div class="container" style="max-width:800px">
+      <p style="font-size:1.05rem;line-height:1.7;color:var(--color-text-muted);text-align:center">
+        The Computer Vision group at Carnegie Mellon University brings together world-class researchers working on 3D vision, generative models, computational imaging, and robotics. Corporate sponsorship enables us to pursue ambitious research agendas while providing partners with unique access to cutting-edge discoveries and top talent.
+      </p>
+    </div>
+  </section>
+
+  <!-- Benefits -->
+  <section class="section section--alt">
+    <div class="container">
+      <h2 class="section__title">Sponsorship Benefits</h2>
+      <div class="benefits-grid">
+        <div class="benefit-card">
+          <div class="benefit-card__icon">&#x1F52C;</div>
+          <h3 class="benefit-card__title">Sponsored Research</h3>
+          <p class="benefit-card__desc">Fund targeted research projects aligned with your strategic goals, with direct faculty collaboration.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">&#x1F393;</div>
+          <h3 class="benefit-card__title">Student Internships</h3>
+          <p class="benefit-card__desc">Priority access to top graduate students for summer internships and full-time recruitment.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">&#x1F3A4;</div>
+          <h3 class="benefit-card__title">Seminar Access</h3>
+          <p class="benefit-card__desc">Invitations to exclusive research seminars, workshops, and annual sponsor meetings.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">&#x1F4BB;</div>
+          <h3 class="benefit-card__title">Demo Days</h3>
+          <p class="benefit-card__desc">Hands-on demonstrations of the latest prototypes, systems, and research outcomes from our labs.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">&#x1F4C4;</div>
+          <h3 class="benefit-card__title">Early Research Access</h3>
+          <p class="benefit-card__desc">Pre-publication access to papers, code, and datasets before public release.</p>
+        </div>
+        <div class="benefit-card">
+          <div class="benefit-card__icon">&#x1F465;</div>
+          <h3 class="benefit-card__title">Recruiting</h3>
+          <p class="benefit-card__desc">Direct connections to our talented pool of MS and PhD graduates for hiring opportunities.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section__title">Get in Touch</h2>
+      <form class="contact-form" action="https://formspree.io/f/mreaqewo" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="organization">Organization</label>
+          <input type="text" id="organization" name="organization">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn--primary">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__brand">
+        <img src="./assets/cmu.svg" alt="Carnegie Mellon University">
+        <p>School of Computer Science<br>5000 Forbes Ave<br>Pittsburgh, PA 15213</p>
+      </div>
+      <div class="footer__links">
+        <h4>Pages</h4>
+        <a href="./index.html">Overview</a>
+        <a href="./people.html">People</a>
+        <a href="./research.html">Research</a>
+        <a href="./courses.html">Courses</a>
+        <a href="./sponsorship.html">Sponsorship</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      &copy; Carnegie Mellon University. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="./js/nav.js"></script>
+</body>
+</html>

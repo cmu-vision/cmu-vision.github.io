@@ -1,0 +1,5 @@
+title:: Spectral Sub-Surface Scattering
+url:: http://imagesci.ece.cmu.edu/files/paper/2024/S4_ECCV2024.pdf
+img:: http://imagesci.ece.cmu.edu/images/pubpics/s4.jpg
+year:: 2024
+topics:: Computational Imaging

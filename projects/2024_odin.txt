@@ -2,3 +2,4 @@ title:: ODIN: A Single Model for 2D and 3D Perception
 img:: https://odin-seg.github.io/data/teaser_v6-1.png
 url:: https://odin-seg.github.io
 year:: 2024
+topics:: Recognition & Detection, Scene Understanding

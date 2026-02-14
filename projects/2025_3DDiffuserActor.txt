@@ -1,0 +1,5 @@
+title:: 3D Diffuser Actor: Policy Diffusion with 3D Scene Representations
+url:: https://3d-diffuser-actor.github.io/
+img:: https://3d-diffuser-actor.github.io/static/images/arch.jpg
+year:: 2024
+topics:: Robotics, 3D Vision

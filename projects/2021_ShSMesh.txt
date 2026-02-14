@@ -1,4 +1,0 @@
-title:: Shelf-Supervised Mesh Prediction in the Wild
-url:: https://judyye.github.io/ShSMesh/
-img:: https://judyye.github.io/ShSMesh/data/teaser.gif
-year:: 2021

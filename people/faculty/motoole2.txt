@@ -1,3 +1,4 @@
 name:: Matthew P. O'Toole
 url:: https://www.cs.cmu.edu/~motoole2/
 img:: people/faculty/motoole2.jpeg
+interests:: Computational Imaging, Computational Photography, Non-Line-of-Sight Imaging

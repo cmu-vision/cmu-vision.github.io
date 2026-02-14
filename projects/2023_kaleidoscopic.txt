@@ -2,3 +2,4 @@ title:: Neural Kaleidoscopic Space Sculpting
 url:: https://imaging.cs.cmu.edu/neural_kaleidoscopic_space_sculpting/
 img:: https://imaging.cs.cmu.edu/wp-content/uploads/2023/04/3d_printing_desk-1024x497.png
 year:: 2023
+topics:: Computational Imaging, 3D Vision

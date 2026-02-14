@@ -1,0 +1,5 @@
+title:: Spatially Varying Autofocus
+url:: https://imaging.cs.cmu.edu/svaf/
+img:: https://imaging.cs.cmu.edu/svaf/static/images/teaser_figure_v3.jpg
+year:: 2025
+topics:: Computational Imaging

@@ -1,0 +1,5 @@
+title:: Taming 3D Gaussian Splatting for High-Quality Rendering
+url:: https://github.com/humansensinglab/taming-3dgs
+img:: https://raw.githubusercontent.com/humansensinglab/taming-3dgs/main/assets/teaser.png
+year:: 2025
+topics:: 3D Vision

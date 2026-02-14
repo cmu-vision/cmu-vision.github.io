@@ -1,0 +1,5 @@
+title:: TAPIP3D: Tracking Any Point in Persistent 3D Geometry
+url:: https://tapip3d.github.io/
+img:: https://www.cs.cmu.edu/~katef/images/tapip3d.gif
+year:: 2025
+topics:: 3D Vision

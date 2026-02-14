@@ -1,3 +1,4 @@
 name:: Fernando De la Torre
 url:: https://www.cs.cmu.edu/~ftorre/
 img:: people/faculty/ftorre.jpeg
+interests:: Face Analysis, Human Sensing, Generative Models

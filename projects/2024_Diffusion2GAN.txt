@@ -1,0 +1,5 @@
+title:: Distilling Diffusion Models into Conditional GANs
+url:: https://mingukkang.github.io/Diffusion2GAN/
+img:: https://www.cs.cmu.edu/~junyanz/imgs/Kang_2024diffusion2gan.jpg
+year:: 2024
+topics:: Generative Models

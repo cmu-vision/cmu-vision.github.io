@@ -1,4 +1,5 @@
 title:: Compositional and Scalable Object SLAM
 url:: https://akashsharma02.github.io/assets/pdf/Sharma21icra.pdf
-img:: https://akashsharma02.github.io/assets/img/object_slam.gif
+img:: https://github.com/rpl-cmu/object-slam/raw/main/misc/object-slam.gif
 year:: 2021
+topics:: 3D Vision, Robotics

@@ -1,0 +1,5 @@
+title:: MVD-Fusion: Single-view 3D via Depth-consistent Multi-view Generation
+url:: https://mvd-fusion.github.io/
+img:: https://github.com/zhizdev/mvdfusion/raw/main/media/teaser.jpg
+year:: 2024
+topics:: 3D Vision, Generative Models

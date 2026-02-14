@@ -1,4 +1,0 @@
-title:: RelPose: Predicting Probabilistic Relative Rotation for Single Objects in the Wild
-url:: https://jasonyzhang.com/relpose/
-img:: https://shubhtuls.github.io/figures/eccv22relpose.gif
-year:: 2022

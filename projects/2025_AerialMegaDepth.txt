@@ -1,0 +1,5 @@
+title:: AerialMegaDepth: Learning Aerial-Ground Reconstruction and View Synthesis
+url:: https://aerial-megadepth.github.io/
+img:: https://aerial-megadepth.github.io/files/output_dust3r_supp/teaser/0001_thumb.jpg
+year:: 2025
+topics:: 3D Vision, Scene Understanding

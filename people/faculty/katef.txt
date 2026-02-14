@@ -1,3 +1,4 @@
 name:: Katerina Fragkiadaki
 url:: https://www.cs.cmu.edu/~katef/
 img:: people/faculty/katef.png
+interests:: Embodied AI, Robot Learning, Vision-Language Models

@@ -1,0 +1,5 @@
+title:: DiffusionSfM: Predicting Structure and Motion via Ray Origin and Endpoint Diffusion
+url:: https://qitaozhao.github.io/DiffusionSfM
+img:: https://qitaozhao.github.io/images/DiffusionSfM.gif
+year:: 2025
+topics:: 3D Vision

@@ -1,0 +1,5 @@
+title:: DreamScene4D: Dynamic Multi-Object Scene Generation from Monocular Videos
+url:: https://dreamscene4d.github.io/
+img:: https://github.com/dreamscene4d/dreamscene4d/raw/main/demo_visuals/demo-1.gif
+year:: 2024
+topics:: Generative Models, 3D Vision

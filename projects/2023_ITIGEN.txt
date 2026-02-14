@@ -1,0 +1,5 @@
+title:: ITI-GEN: Inclusive Text-to-Image Generation
+url:: https://github.com/humansensinglab/ITI-GEN
+img:: https://github.com/humansensinglab/ITI-GEN/raw/main/docs/teaser.png
+year:: 2023
+topics:: Generative Models
