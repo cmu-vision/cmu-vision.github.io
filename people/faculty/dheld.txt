@@ -1,4 +1,4 @@
 name:: David Held
 url:: https://davheld.github.io/
 img:: people/faculty/dheld.jpeg
-interests:: Robot Manipulation, Autonomous Driving, Robot Learning
+interests:: Robot Manipulation, Robot Learning, Reinforcement learning, 3D Vision for Manipulation
