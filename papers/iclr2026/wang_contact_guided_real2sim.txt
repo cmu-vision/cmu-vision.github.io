@@ -1,0 +1,6 @@
+title:: Contact-guided Real2Sim from Monocular Video with Planar Scene Primitives
+authors:: Zihan Wang*, Jiashun Wang*, Jeff Tan, Yiwen Zhao, Jessica K. Hodgins, Shubham Tulsiani, Deva Ramanan
+url:: https://openreview.net/forum?id=xlr3NqxUqY
+pdf:: https://openreview.net/pdf?id=xlr3NqxUqY
+conference:: ICLR
+year:: 2026
