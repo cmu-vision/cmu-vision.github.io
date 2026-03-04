@@ -385,6 +385,85 @@ h4 { font-size: 1.1rem; }
   font-weight: var(--font-weight-medium);
 }
 
+/* ---------- Papers (conference sections) ---------- */
+.papers-section {
+  margin-bottom: var(--space-xl);
+}
+
+.papers-section:last-child {
+  margin-bottom: 0;
+}
+
+.papers-section__title {
+  font-size: 1.35rem;
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.papers-section__count {
+  font-weight: var(--font-weight-normal);
+  color: var(--color-text-muted);
+  font-size: 0.95em;
+}
+
+.grid--papers {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.card--paper {
+  padding: var(--space-md) var(--space-lg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: var(--color-bg);
+}
+
+.card--paper__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.card--paper__title {
+  font-size: 1rem;
+  font-weight: var(--font-weight-semibold);
+}
+
+.card--paper__title a {
+  color: var(--color-text);
+}
+
+.card--paper__title a:hover {
+  color: var(--color-accent);
+}
+
+.card--paper__authors {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.card--paper__meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  font-size: 0.85rem;
+  color: var(--color-text-muted);
+}
+
+.card--paper__pdf {
+  font-weight: var(--font-weight-medium);
+}
+
+.papers-empty {
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  text-align: center;
+  padding: var(--space-xl);
+}
+
 /* ---------- Research Areas (Index) ---------- */
 .grid--areas {
   display: grid;

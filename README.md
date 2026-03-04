@@ -5,18 +5,20 @@ Website for the Computer Vision group at Carnegie Mellon University.
 ### Site Structure
 
 ```
-templates/          HTML base templates (index, people, research, courses)
+templates/          HTML base templates (index, people, research, courses, papers)
 people/             Faculty, student, and postdoc data files
   faculty/          One .txt file per faculty member
   students/         One .txt file per student
   postdocs/         One .txt file per postdoc
 projects/           One .txt file per research project
+papers/             Conference papers (one subfolder per conference instance)
+  cvpr2025/         One .txt file per paper (files starting with _ are ignored, e.g. _example.txt)
 courses/            One .txt file per course (+ optional thumbnail images)
 assets/             Logo, icons, and default images
 css/style.css       Site stylesheet
 js/                 JavaScript (topic filtering, responsive nav)
 sponsorship.html    Static sponsorship page (not auto-generated)
-generate.py         Generates index.html, people.html, research.html, courses.html
+generate.py         Generates index.html, people.html, research.html, courses.html, papers.html
 ```
 
 ### Generating the Site
@@ -27,7 +29,7 @@ After adding or editing any data files, regenerate the HTML pages:
 python generate.py
 ```
 
-This reads the templates in `templates/` and data files in `people/`, `projects/`, and `courses/`, then writes `index.html`, `people.html`, `research.html`, and `courses.html`.
+This reads the templates in `templates/` and data files in `people/`, `projects/`, `papers/`, and `courses/`, then writes `index.html`, `people.html`, `research.html`, `courses.html`, and `papers.html`.
 
 ### Adding People
 
@@ -75,3 +77,23 @@ url:: link_to_course_webpage (optional — omit this line entirely if not availa
 ```
 
 The course image is displayed at a 1:1 aspect ratio.
+
+### Adding a Conference Paper
+
+To list a paper on the [Papers](papers.html) page (e.g. for CVPR, ECCV, ICCV):
+
+1. **Create the conference folder** if it does not exist: e.g. `papers/cvpr2025/` (lowercase conference abbreviation + 4-digit year).
+2. **Add a new `.txt` file** in that folder (e.g. `papers/cvpr2025/firstauthor_short_title.txt`). Copy the format from `papers/cvpr2025/_example.txt` — files whose names start with `_` are ignored by the generator.
+3. **Required fields:** `title`, `authors`, `url`, `conference`, `year`. **Optional:** `pdf`, `abstract`, `img`.
+4. Run `python generate.py` and commit the updated `papers.html`, or open a pull request and a maintainer will run the generator and merge.
+
+Example:
+
+```
+title:: Your Paper Title Here
+authors:: First Author, Second Author, Third Author
+url:: https://arxiv.org/abs/xxxx.xxxxx
+pdf:: https://arxiv.org/pdf/xxxx.xxxxx.pdf
+conference:: CVPR
+year:: 2025
+```

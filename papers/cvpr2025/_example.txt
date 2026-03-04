@@ -1,0 +1,8 @@
+title:: Your Paper Title Here
+authors:: First Author, Second Author, Third Author
+url:: https://arxiv.org/abs/xxxx.xxxxx
+pdf:: https://arxiv.org/pdf/xxxx.xxxxx.pdf
+conference:: CVPR
+year:: 2025
+abstract:: One line summary (optional).
+img:: https://... optional teaser image URL

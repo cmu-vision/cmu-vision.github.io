@@ -1,0 +1,6 @@
+title:: DuoMo: Dual Motion Diffusion for World-Space Human Reconstruction
+authors:: Yufu Wang, Evonne Ng, Soyong Shin, Rawal Khirodkar, Yuan Dong, Zhaoen Su, Jinhyung Park, Kris Kitani, Alexander Richard, Fabian Prada, Michael Zollhöfer
+url:: https://arxiv.org/
+pdf::
+conference:: CVPR
+year:: 2026

@@ -1,0 +1,6 @@
+title:: SAM 3D Body: Robust Full-Body Human Mesh Recovery
+authors:: Xitong Yang, Devansh Kukreja, Don Pinkus, Taosha Fan, Jinhyung Park, Soyong Shin, Jinkun Cao, Jia-Wei Liu, Nicolás Ugrinovic, Anushka Sagar, Jitendra Malik, Matt Feiszli, Piotr Dollár, Kris Kitani
+url:: https://arxiv.org/abs/2602.15989
+pdf:: https://arxiv.org/pdf/2602.15989.pdf
+conference:: CVPR
+year:: 2026

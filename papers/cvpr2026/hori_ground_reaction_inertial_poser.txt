@@ -1,0 +1,6 @@
+title:: Ground Reaction Inertial Poser: Physics-based Human Motion Capture from Sparse IMUs and Insole Pressure Sensors
+authors:: Ryosuke Hori, Jyun-Ting Song, Zhengyi Luo, Jinkun Cao, Soyong Shin, Hideo Saito, Kris Kitani
+url:: https://arxiv.org/
+pdf::
+conference:: CVPR
+year:: 2026

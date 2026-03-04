@@ -1,0 +1,6 @@
+title:: DyaDiT: A Multi-Modal Diffusion Transformer for Socially-Aware Dyadic Gesture Generation
+authors:: Yichen Peng, Jyun-Ting Song, Siyeol Jung, Ruofan Liu, Haiyang Liu, Xuangeng Chu, Ruicong Liu, Erwin Wu, Hideki Koike, Kris Kitani
+url:: https://arxiv.org/abs/2602.23165
+pdf:: https://arxiv.org/pdf/2602.23165.pdf
+conference:: CVPR
+year:: 2026

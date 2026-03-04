@@ -1,0 +1,6 @@
+title:: FPSBench: A Benchmark for Video Understanding at High Frame Rates
+authors:: Rohan Choudhury, Jean Sebastien Dandurand, Kai Qiu, Kshitij Madhav Bhat, Kartik Sharma, Liza Dahiya, Yizhou Zhao, Souraja Kundu, Chun-Hsien Lin, Kris Kitani, Laszlo A. Jeni
+url:: https://arxiv.org/
+pdf::
+conference:: CVPR
+year:: 2026

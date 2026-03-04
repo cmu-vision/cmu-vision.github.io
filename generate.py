@@ -2,7 +2,7 @@
 """Unified site generator for Computer Vision @ CMU.
 
 Replaces gen_people_page.py, gen_research_page.py, gen_course_page.py.
-Generates: index.html, people.html, research.html, courses.html
+Generates: index.html, people.html, research.html, courses.html, papers.html
 """
 
 import glob
@@ -27,6 +27,12 @@ def write_file(fpath, content):
 def get_txtfile_ids(folder):
     txtfiles = glob.glob(os.path.join(folder, '*.txt'))
     return [os.path.splitext(os.path.basename(t))[0] for t in txtfiles]
+
+
+def get_txtfile_ids_skip_underscore(folder):
+    """Like get_txtfile_ids but skip filenames starting with underscore."""
+    ids = get_txtfile_ids(folder)
+    return [i for i in ids if not i.startswith('_')]
 
 
 def parse_txt(fpath):
@@ -201,6 +207,94 @@ def generate_courses():
 
 
 # ---------------------------------------------------------------------------
+# Papers page  (papers.html) — conference sections, one .txt per paper
+# ---------------------------------------------------------------------------
+
+def paper_card_html(elems):
+    title = esc(elems.get('title', ''))
+    url = elems.get('url', '#')
+    authors = esc(elems.get('authors', ''))
+    year = esc(elems.get('year', ''))
+    pdf = elems.get('pdf', '')
+
+    lines = []
+    lines.append('<div class="card card--paper">')
+    lines.append(f'  <div class="card--paper__body">')
+    lines.append(f'    <div class="card--paper__title"><a href="{esc(url)}">{title}</a></div>')
+    lines.append(f'    <div class="card--paper__authors">{authors}</div>')
+    lines.append(f'    <div class="card--paper__meta">')
+    lines.append(f'      <span class="card--paper__year">{year}</span>')
+    if pdf:
+        lines.append(f'      <a class="card--paper__pdf" href="{esc(pdf)}">PDF</a>')
+    lines.append(f'    </div>')
+    lines.append(f'  </div>')
+    lines.append('</div>')
+    return '\n'.join(lines)
+
+
+def _conference_display_name(folder_name):
+    """Turn e.g. cvpr2025 into 'CVPR 2025'."""
+    if len(folder_name) >= 4 and folder_name[-4:].isdigit():
+        conf = folder_name[:-4].upper()
+        year = folder_name[-4:]
+        return f'{conf} {year}'
+    return folder_name.replace('_', ' ').title()
+
+
+def generate_papers():
+    template = read_file('./templates/papers_base.html')
+    papers_dir = './papers'
+    if not os.path.isdir(papers_dir):
+        html_out = template.replace(
+            '<!-- autogen papers -->',
+            '<!-- autogen papers -->\n      <p class="papers-empty">No papers yet. Coming soon.</p>'
+        )
+        write_file('./papers.html', html_out)
+        print(f'  papers.html  — 0 papers (empty)')
+        return
+
+    subfolders = [d for d in os.listdir(papers_dir)
+                  if os.path.isdir(os.path.join(papers_dir, d)) and not d.startswith('.')]
+    # Sort by folder name: later year first, then by conference (e.g. cvpr2025 before eccv2024)
+    subfolders.sort(key=lambda s: (s[-4:] if len(s) >= 4 and s[-4:].isdigit() else '0000', s), reverse=True)
+
+    sections_html = []
+    total_papers = 0
+    for folder_name in subfolders:
+        folder = os.path.join(papers_dir, folder_name)
+        ids = get_txtfile_ids_skip_underscore(folder)
+        if not ids:
+            continue
+        papers = []
+        for pid in ids:
+            fpath = os.path.join(folder, pid + '.txt')
+            elems, keys = parse_txt(fpath)
+            papers.append(elems)
+        papers.sort(key=lambda p: p.get('title', '').lower())
+        cards = [paper_card_html(p) for p in papers]
+        display_name = _conference_display_name(folder_name)
+        count_text = f'({len(papers)} paper{"s" if len(papers) != 1 else ""})'
+        section = (
+            f'<div class="papers-section">\n'
+            f'  <h2 class="papers-section__title">{esc(display_name)} <span class="papers-section__count">{count_text}</span></h2>\n'
+            f'  <div class="grid--papers">\n'
+            + '\n'.join(cards) + '\n'
+            f'  </div>\n</div>'
+        )
+        sections_html.append(section)
+        total_papers += len(papers)
+
+    if not sections_html:
+        content = '      <p class="papers-empty">No papers yet. Coming soon.</p>'
+    else:
+        content = '\n'.join(sections_html)
+
+    html_out = template.replace('<!-- autogen papers -->', '<!-- autogen papers -->\n' + content)
+    write_file('./papers.html', html_out)
+    print(f'  papers.html  — {total_papers} papers in {len(sections_html)} conference(s)')
+
+
+# ---------------------------------------------------------------------------
 # Index / Overview page  (index.html) — 6 featured projects (most recent)
 # ---------------------------------------------------------------------------
 
@@ -270,4 +364,5 @@ if __name__ == '__main__':
     generate_people()
     generate_research()
     generate_courses()
+    generate_papers()
     print('Done!')

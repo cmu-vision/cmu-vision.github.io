@@ -1,0 +1,6 @@
+title:: Grounded Latents for Entity-Centric 4D Scene Generation
+authors:: Jinhyung Park, Navyata Sanghvi, Erica Weng, Shawn Hunt, Shinya Tanaka, Hironobu Fujiyoshi, Kris Kitani
+url:: https://arxiv.org/
+pdf::
+conference:: CVPR
+year:: 2026
