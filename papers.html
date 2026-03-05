@@ -44,22 +44,13 @@
   <section class="section">
     <div class="container">
       <!-- autogen papers -->
-<div class="papers-section">
-  <h2 class="papers-section__title">ICLR 2026 <span class="papers-section__count">(1 paper)</span></h2>
-  <div class="grid--papers">
-<div class="card card--paper">
-  <div class="card--paper__body">
-    <div class="card--paper__title"><a href="https://openreview.net/forum?id=xlr3NqxUqY">Contact-guided Real2Sim from Monocular Video with Planar Scene Primitives</a></div>
-    <div class="card--paper__authors">Zihan Wang*, Jiashun Wang*, Jeff Tan, Yiwen Zhao, Jessica K. Hodgins, Shubham Tulsiani, Deva Ramanan</div>
-    <div class="card--paper__meta">
-      <span class="card--paper__year">2026</span>
-      <a class="card--paper__pdf" href="https://openreview.net/pdf?id=xlr3NqxUqY">PDF</a>
-    </div>
-  </div>
+<div class="filter-bar papers-filter-bar">
+  <button class="filter-btn active" data-conference="all">All</button>
+  <button class="filter-btn" data-conference="cvpr2026">CVPR 2026</button>
+  <button class="filter-btn" data-conference="iclr2026">ICLR 2026</button>
 </div>
-  </div>
-</div>
-<div class="papers-section">
+
+<div class="papers-section" data-conference="cvpr2026">
   <h2 class="papers-section__title">CVPR 2026 <span class="papers-section__count">(20 papers)</span></h2>
   <div class="grid--papers">
 <div class="card card--paper">
@@ -253,6 +244,21 @@
 </div>
   </div>
 </div>
+<div class="papers-section" data-conference="iclr2026">
+  <h2 class="papers-section__title">ICLR 2026 <span class="papers-section__count">(1 paper)</span></h2>
+  <div class="grid--papers">
+<div class="card card--paper">
+  <div class="card--paper__body">
+    <div class="card--paper__title"><a href="https://openreview.net/forum?id=xlr3NqxUqY">Contact-guided Real2Sim from Monocular Video with Planar Scene Primitives</a></div>
+    <div class="card--paper__authors">Zihan Wang*, Jiashun Wang*, Jeff Tan, Yiwen Zhao, Jessica K. Hodgins, Shubham Tulsiani, Deva Ramanan</div>
+    <div class="card--paper__meta">
+      <span class="card--paper__year">2026</span>
+      <a class="card--paper__pdf" href="https://openreview.net/pdf?id=xlr3NqxUqY">PDF</a>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
     </div>
   </section>
 
@@ -279,5 +285,6 @@
   </footer>
 
   <script src="./js/nav.js"></script>
+  <script src="./js/papers-filter.js"></script>
 </body>
 </html>

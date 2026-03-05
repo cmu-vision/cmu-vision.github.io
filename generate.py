@@ -255,9 +255,15 @@ def generate_papers():
 
     subfolders = [d for d in os.listdir(papers_dir)
                   if os.path.isdir(os.path.join(papers_dir, d)) and not d.startswith('.')]
-    # Sort by folder name: later year first, then by conference (e.g. cvpr2025 before eccv2024)
-    subfolders.sort(key=lambda s: (s[-4:] if len(s) >= 4 and s[-4:].isdigit() else '0000', s), reverse=True)
+    # Sort: year descending, then folder ascending (so CVPR 2026 before ICLR 2026)
+    def _papers_sort_key(s):
+        year = int(s[-4:]) if len(s) >= 4 and s[-4:].isdigit() else 0
+        return (-year, s)
+    subfolders.sort(key=_papers_sort_key)
 
+    # Build filter bar buttons and sections
+    filter_buttons = ['<div class="filter-bar papers-filter-bar">']
+    filter_buttons.append('  <button class="filter-btn active" data-conference="all">All</button>')
     sections_html = []
     total_papers = 0
     for folder_name in subfolders:
@@ -265,6 +271,8 @@ def generate_papers():
         ids = get_txtfile_ids_skip_underscore(folder)
         if not ids:
             continue
+        display_name = _conference_display_name(folder_name)
+        filter_buttons.append(f'  <button class="filter-btn" data-conference="{esc(folder_name)}">{esc(display_name)}</button>')
         papers = []
         for pid in ids:
             fpath = os.path.join(folder, pid + '.txt')
@@ -272,10 +280,9 @@ def generate_papers():
             papers.append(elems)
         papers.sort(key=lambda p: p.get('title', '').lower())
         cards = [paper_card_html(p) for p in papers]
-        display_name = _conference_display_name(folder_name)
         count_text = f'({len(papers)} paper{"s" if len(papers) != 1 else ""})'
         section = (
-            f'<div class="papers-section">\n'
+            f'<div class="papers-section" data-conference="{esc(folder_name)}">\n'
             f'  <h2 class="papers-section__title">{esc(display_name)} <span class="papers-section__count">{count_text}</span></h2>\n'
             f'  <div class="grid--papers">\n'
             + '\n'.join(cards) + '\n'
@@ -287,7 +294,8 @@ def generate_papers():
     if not sections_html:
         content = '      <p class="papers-empty">No papers yet. Coming soon.</p>'
     else:
-        content = '\n'.join(sections_html)
+        filter_buttons.append('</div>')
+        content = '\n'.join(filter_buttons) + '\n\n' + '\n'.join(sections_html)
 
     html_out = template.replace('<!-- autogen papers -->', '<!-- autogen papers -->\n' + content)
     write_file('./papers.html', html_out)
