@@ -1,0 +1,8 @@
+title:: RefAV: Towards Planning-Centric Scenario Mining
+authors:: Cainan Davidson, Deva Ramanan, Neehar Peri
+url:: https://cainand.github.io/RefAV/
+pdf:: https://arxiv.org/pdf/2505.20981
+conference:: CVPR
+year:: 2026
+abstract:: We introduce RefAV, a dataset of 10,000 diverse natural language queries that describe complex multi-agent interactions relevant to motion planning derived from 1000 driving logs in the Argoverse 2 Sensor dataset. 
+img:: https://evalai.s3.amazonaws.com/media/logos/fbb8e539-acba-44c5-9226-a4c13c63f277.jpg
