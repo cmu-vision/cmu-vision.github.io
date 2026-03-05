@@ -1,0 +1,6 @@
+title:: OnlineHMR: Video-based Online World-Grounded Human Mesh Recovery
+authors:: Yiwen Zhao, Ce Zheng, Yufu Wang, Hsueh-Han Daniel Yang, Liting Wen, Laszlo A. Jeni
+url:: https://arxiv.org/
+pdf::
+conference:: CVPR
+year:: 2026
