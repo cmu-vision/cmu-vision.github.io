@@ -1,6 +1,6 @@
-title:: Unified Spherical Frontend: Learning Rotation-Equivariant Representations of Any Camera
-authors:: Mukai Yu, Mosam Dabhi, Liuyue Xie, Sebastian Scherer, Laszlo A. Jeni
-url::
-pdf::
+title:: Unified Spherical Frontend: Learning Rotation-Equivariant Representations of Spherical Images from Any Camera
+authors:: Mukai Yu, Mosam Dabhi, Liuyue Xie, Sebastian Scherer, László A. Jeni
+url:: https://arxiv.org/abs/2511.18174
+pdf:: https://arxiv.org/pdf/2511.18174.pdf
 conference:: CVPR
 year:: 2026

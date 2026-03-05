@@ -1,0 +1,6 @@
+title:: Any4D: Unified Feed-Forward Metric 4D Reconstruction
+authors:: Jay Karhade, Nikhil Keetha, Yuchen Zhang, Tanisha Gupta, Akash Sharma, Sebastian Scherer, Deva Ramanan
+url:: https://arxiv.org/abs/2512.10935
+pdf:: https://arxiv.org/pdf/2512.10935.pdf
+conference:: CVPR
+year:: 2026

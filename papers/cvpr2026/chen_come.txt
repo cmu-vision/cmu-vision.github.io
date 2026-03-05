@@ -1,0 +1,6 @@
+title:: Co-Me: Confidence-Guided Token Merging for Visual Geometric Transformers
+authors:: Yutian Chen, Yuheng Qiu, Ruogu Li, Ali Agha, Shayegan Omidshafiei, Jay Patrikar, Sebastian Scherer
+url:: https://arxiv.org/abs/2511.14751
+pdf:: https://arxiv.org/pdf/2511.14751.pdf
+conference:: CVPR
+year:: 2026
