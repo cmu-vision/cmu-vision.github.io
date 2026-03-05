@@ -1,0 +1,6 @@
+title:: E-RayZer: Self-supervised 3D Reconstruction as Spatial Visual Pre-training
+authors:: Qitao Zhao, Hao Tan, Qianqian Wang, Sai Bi, Kai Zhang, Kalyan Sunkavalli, Shubham Tulsiani, Hanwen Jiang
+url:: https://arxiv.org/abs/2512.10950
+pdf:: https://arxiv.org/pdf/2512.10950
+conference:: CVPR
+year:: 2026
