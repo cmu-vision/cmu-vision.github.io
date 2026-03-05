@@ -1,0 +1,6 @@
+title:: MedLIME: A Distribution-Aligned and Evidence-Supported Framework for Medical Saliency Explanations
+authors:: Raghav Magazine, Xingjian Li, Min Xu
+url:: https://arxiv.org/
+pdf::
+conference:: CVPR
+year:: 2026
