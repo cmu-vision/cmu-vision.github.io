@@ -1,0 +1,6 @@
+title:: Computational Speckle Pattern Interferometry 
+authors:: Shengxi Wu, Sophia Yang, Dorian Chan, Matthew O'Toole 
+url:: https://arxiv.org/
+pdf::
+conference:: CVPR
+year:: 2026
