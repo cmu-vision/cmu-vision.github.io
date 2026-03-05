@@ -1,0 +1,6 @@
+title:: Unsupervised Multi-Scale Segmentation of 3D Subcellular World with Stable Diffusion Foundation Model
+authors:: Mostofa Rafid Uddin, HM Shadman Tabib, Thanh-Huy Nguyen, Kashish Gandhi, Min Xu
+url:: https://www.biorxiv.org/content/10.1101/2025.06.25.661425v1
+pdf:: https://www.biorxiv.org/content/10.1101/2025.06.25.661425v1.full.pdf
+conference:: CVPR
+year:: 2026

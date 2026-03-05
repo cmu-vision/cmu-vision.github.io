@@ -1,0 +1,6 @@
+title:: Flow3r: Factored Flow Prediction for Scalable Visual Geometry Learning
+authors:: Zhongxiao Cong, Qitao Zhao, Minsik Jeon, Shubham Tulsiani
+url:: https://flow3r-project.github.io
+pdf:: https://arxiv.org/pdf/2602.20157.pdf
+conference:: CVPR
+year:: 2026

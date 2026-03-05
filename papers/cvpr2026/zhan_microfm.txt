@@ -1,0 +1,6 @@
+title:: MicroFM: Physics-guided Flow Matching for Isotropic Microscopy Reconstruction
+authors:: Xingzu Zhan, Runmin Jiang, Vatsal Gupta, Tanush Swaminathan, Yanwen Wang, Genpei Zhang, Haili Wang, Min Xu
+url:: https://arxiv.org/
+pdf::
+conference:: CVPR
+year:: 2026
