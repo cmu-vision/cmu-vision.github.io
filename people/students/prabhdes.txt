@@ -1,0 +1,5 @@
+name:: Prabhdeep Singh Sethi
+img:: people/students/prabhdes.jpeg
+url:: https://prabhdeep1999.github.io/Prabhdeep1999/
+program:: MS
+year:: 2023
