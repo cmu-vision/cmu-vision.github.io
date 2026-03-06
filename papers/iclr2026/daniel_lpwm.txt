@@ -1,0 +1,6 @@
+title:: Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling
+authors:: Tal Daniel, Carl Qi, Dan Haramati, Amir Zadeh, Chuan Li, Aviv Tamar, Deepak Pathak, David Held
+url:: https://taldatech.github.io/lpwm-web/
+pdf:: https://openreview.net/pdf?id=lTaPtGiUUc
+conference:: ICLR
+year:: 2026
