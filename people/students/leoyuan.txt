@@ -1,0 +1,5 @@
+name:: Zeqing Leo Yuan
+img:: people/students/leoyuan.jpg
+url:: https://zqyuan.com
+program:: MSR
+year:: 2024
