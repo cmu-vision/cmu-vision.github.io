@@ -258,10 +258,12 @@ def generate_papers():
         return (-year, s)
     subfolders.sort(key=_papers_sort_key)
 
-    # Build sections (no filter bar)
+    # Build sections (no filter bar). Skip ICLR for now (show only CVPR 2026).
     sections_html = []
     total_papers = 0
     for folder_name in subfolders:
+        if folder_name.lower().startswith('iclr'):
+            continue
         folder = os.path.join(papers_dir, folder_name)
         ids = get_txtfile_ids_skip_underscore(folder)
         if not ids:
@@ -277,7 +279,7 @@ def generate_papers():
         count_text = f'({len(papers)} paper{"s" if len(papers) != 1 else ""})'
         section = (
             f'<div class="papers-section" data-conference="{esc(folder_name)}">\n'
-            f'  <h2 class="papers-section__title">{esc(display_name)} <span class="papers-section__count">{count_text}</span></h2>\n'
+            f'  <h2 class="papers-section__title">New Papers at {esc(display_name)} ! <span class="papers-section__count">{count_text}</span></h2>\n'
             f'  <div class="grid--papers">\n'
             + '\n'.join(cards) + '\n'
             f'  </div>\n</div>'
