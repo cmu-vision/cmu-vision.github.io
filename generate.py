@@ -258,9 +258,7 @@ def generate_papers():
         return (-year, s)
     subfolders.sort(key=_papers_sort_key)
 
-    # Build filter bar buttons and sections
-    filter_buttons = ['<div class="filter-bar papers-filter-bar">']
-    filter_buttons.append('  <button class="filter-btn active" data-conference="all">All</button>')
+    # Build sections (no filter bar)
     sections_html = []
     total_papers = 0
     for folder_name in subfolders:
@@ -269,7 +267,6 @@ def generate_papers():
         if not ids:
             continue
         display_name = _conference_display_name(folder_name)
-        filter_buttons.append(f'  <button class="filter-btn" data-conference="{esc(folder_name)}">{esc(display_name)}</button>')
         papers = []
         for pid in ids:
             fpath = os.path.join(folder, pid + '.txt')
@@ -291,8 +288,7 @@ def generate_papers():
     if not sections_html:
         content = '      <p class="papers-empty">No papers yet. Coming soon.</p>'
     else:
-        filter_buttons.append('</div>')
-        content = '\n'.join(filter_buttons) + '\n\n' + '\n'.join(sections_html)
+        content = '\n'.join(sections_html)
 
     html_out = template.replace('<!-- autogen papers -->', '<!-- autogen papers -->\n' + content)
     write_file('./papers.html', html_out)
