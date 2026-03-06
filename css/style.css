@@ -385,9 +385,23 @@ h4 { font-size: 1.1rem; }
   font-weight: var(--font-weight-medium);
 }
 
-/* ---------- Papers (conference sections) ---------- */
+/* ---------- Papers (conference sections, compact) ---------- */
+.section--papers-compact {
+  padding-top: var(--space-md);
+}
+
+.section--papers-compact .filter-bar {
+  margin-bottom: var(--space-sm);
+  gap: var(--space-xs);
+}
+
+.section--papers-compact .filter-btn {
+  padding: 0.3rem 0.75rem;
+  font-size: 0.85rem;
+}
+
 .papers-section {
-  margin-bottom: var(--space-xl);
+  margin-bottom: var(--space-lg);
 }
 
 .papers-section:last-child {
@@ -395,73 +409,74 @@ h4 { font-size: 1.1rem; }
 }
 
 .papers-section__title {
-  font-size: 1.35rem;
+  font-size: 1.1rem;
   font-weight: var(--font-weight-semibold);
-  margin-bottom: var(--space-md);
-  padding-bottom: var(--space-sm);
+  margin-bottom: 3px;
+  padding-bottom: var(--space-xs);
   border-bottom: 1px solid var(--color-border);
 }
 
 .papers-section__count {
   font-weight: var(--font-weight-normal);
   color: var(--color-text-muted);
-  font-size: 0.95em;
+  font-size: 0.9em;
 }
 
 .grid--papers {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-md);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3px 6px;
 }
 
 .card--paper {
-  padding: var(--space-md) var(--space-lg);
+  padding: 3px 6px;
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
+  border-radius: var(--radius-sm);
   background: var(--color-bg);
 }
 
 .card--paper__body {
   display: flex;
   flex-direction: column;
-  gap: var(--space-xs);
+  gap: 2px;
 }
 
-.card--paper__title {
-  font-size: 1rem;
+.card--paper__title-line {
+  font-size: 0.75rem;
   font-weight: var(--font-weight-semibold);
+  line-height: 1.35;
 }
 
-.card--paper__title a {
+.card--paper__title-line a {
   color: var(--color-text);
 }
 
-.card--paper__title a:hover {
+.card--paper__title-line a:hover {
+  color: var(--color-accent);
+}
+
+.card--paper__pdf {
+  font-weight: var(--font-weight-normal);
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+  margin-left: 0.35em;
+}
+
+.card--paper__pdf:hover {
   color: var(--color-accent);
 }
 
 .card--paper__authors {
-  font-size: 0.9rem;
+  font-size: 0.65rem;
   color: var(--color-text-muted);
-}
-
-.card--paper__meta {
-  display: flex;
-  align-items: center;
-  gap: var(--space-md);
-  font-size: 0.85rem;
-  color: var(--color-text-muted);
-}
-
-.card--paper__pdf {
-  font-weight: var(--font-weight-medium);
+  line-height: 1.3;
 }
 
 .papers-empty {
   color: var(--color-text-muted);
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
-  padding: var(--space-xl);
+  padding: var(--space-lg);
 }
 
 /* ---------- Research Areas (Index) ---------- */
@@ -734,6 +749,10 @@ h4 { font-size: 1.1rem; }
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .grid--papers {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .grid--areas {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -799,6 +818,10 @@ h4 { font-size: 1.1rem; }
   }
 
   .grid--projects {
+    grid-template-columns: 1fr;
+  }
+
+  .grid--papers {
     grid-template-columns: 1fr;
   }
 

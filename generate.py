@@ -214,19 +214,16 @@ def paper_card_html(elems):
     title = esc(elems.get('title', ''))
     url = elems.get('url', '#')
     authors = esc(elems.get('authors', ''))
-    year = esc(elems.get('year', ''))
     pdf = elems.get('pdf', '')
 
     lines = []
     lines.append('<div class="card card--paper">')
     lines.append(f'  <div class="card--paper__body">')
-    lines.append(f'    <div class="card--paper__title"><a href="{esc(url)}">{title}</a></div>')
-    lines.append(f'    <div class="card--paper__authors">{authors}</div>')
-    lines.append(f'    <div class="card--paper__meta">')
-    lines.append(f'      <span class="card--paper__year">{year}</span>')
+    title_line = f'<a href="{esc(url)}">{title}</a>'
     if pdf:
-        lines.append(f'      <a class="card--paper__pdf" href="{esc(pdf)}">PDF</a>')
-    lines.append(f'    </div>')
+        title_line += f' <a class="card--paper__pdf" href="{esc(pdf)}">PDF</a>'
+    lines.append(f'    <div class="card--paper__title-line">{title_line}</div>')
+    lines.append(f'    <div class="card--paper__authors">{authors}</div>')
     lines.append(f'  </div>')
     lines.append('</div>')
     return '\n'.join(lines)
