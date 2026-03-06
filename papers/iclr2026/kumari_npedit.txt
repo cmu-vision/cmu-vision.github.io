@@ -1,0 +1,6 @@
+title:: Learning an Image Editing Model without Image Editing Pairs
+authors:: Nupur Kumari, Sheng-Yu Wang, Nanxuan Zhao, Yotam Nitzan, Yuheng Li, Krishna Kumar Singh, Richard Zhang, Eli Shechtman, Jun-Yan Zhu, Xun Huang
+url:: https://nupurkmr9.github.io/npedit/
+pdf:: https://arxiv.org/pdf/2510.14978
+conference:: ICLR
+year:: 2026
