@@ -1,0 +1,6 @@
+title:: From Blurry to Believable: Enhancing Low-quality Talking Heads with 3D Generative Priors
+authors:: Ding-Jiun Huang, Yuanhao Wang, Shao-Ji Yuan, Albert Mosella-Montoro, Francisco Vicente Carrasco, Cheng Zhang, Fernando de la Torre
+url:: https://humansensinglab.github.io/super-head/
+pdf:: https://arxiv.org/pdf/2602.06122
+conference:: 3DV
+year:: 2026

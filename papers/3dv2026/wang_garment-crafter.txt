@@ -1,0 +1,6 @@
+title:: GarmentCrafter: Progressive Novel View Synthesis for Single-View 3D Garment Reconstruction and Editing
+authors:: Yuanhao Wang, Cheng Zhang, Gonçalo Frazão, Jinlong Yang, Alexandru-Eugen Ichim, Thabo Beeler, Fernando De la Torre
+url:: https://humansensinglab.github.io/garment-crafter/
+pdf:: https://arxiv.org/pdf/2503.08678
+conference:: 3DV
+year:: 2026
