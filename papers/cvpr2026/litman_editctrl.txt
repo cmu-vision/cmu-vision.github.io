@@ -1,0 +1,6 @@
+title:: EditCtrl: Disentangled Local and Global Control for Real-Time Generative Video Editing
+authors:: Yehonathan Litman, Shikun Liu, Dario Seyb, Nicholas Milef, Yang Zhou, Carl Marshall, Shubham Tulsiani, Caleb Leak
+url:: https://arxiv.org/abs/2602.15031
+pdf:: https://arxiv.org/pdf/2602.15031.pdf
+conference:: CVPR
+year:: 2026
