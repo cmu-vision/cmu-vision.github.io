@@ -1,0 +1,6 @@
+title:: VT-Intrinsic: Physics-Based Decomposition of Reflectance and Shading using a Single Visible-Thermal Image Pair
+authors:: Zeqing Leo Yuan, Mani Ramanagopal, Aswin C. Sankaranarayanan, Srinivasa G. Narasimhan
+url:: https://vt-intrinsic.github.io/
+pdf::
+conference:: CVPR
+year:: 2026
