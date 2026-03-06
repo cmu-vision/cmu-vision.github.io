@@ -1,0 +1,6 @@
+title:: Multi-view Consistent 3D Gaussian Head Avatars 'without' Multi-view Generation
+authors:: Aviral Chharia, Fernando De la Torre
+url::
+pdf::
+conference:: CVPR
+year:: 2026

@@ -1,0 +1,6 @@
+title:: CGHair: Compact Gaussian Hair Reconstruction with Card Clustering
+authors:: Haimin Luo, Srinjay Sarkar, Albert Mosella-Montoro, Francisco Vicente Carrasco, Fernando De la Torre
+url::
+pdf::
+conference:: CVPR
+year:: 2026
