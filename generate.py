@@ -275,7 +275,7 @@ def generate_papers():
             fpath = os.path.join(folder, pid + '.txt')
             elems, keys = parse_txt(fpath)
             papers.append(elems)
-        papers.sort(key=lambda p: p.get('title', '').lower())
+        random.shuffle(papers)
         cards = [paper_card_html(p) for p in papers]
         count_text = f'({len(papers)} paper{"s" if len(papers) != 1 else ""})'
         section = (
