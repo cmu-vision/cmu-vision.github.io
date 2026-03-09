@@ -1,0 +1,6 @@
+title:: Omni-Attribute: Open-vocabulary Attribute Encoder for Visual Concept Personalization
+authors:: Tsai-Shien Chen, Aliaksandr Siarohin, Guocheng Gordon Qian, Kuan-Chieh Jackson Wang, Egor Nemchinov, Moayed Haji-Ali, Riza Alp Guler, Willi Menapace, Ivan Skorokhodov, Anil Kag, Jun-Yan Zhu, Sergey Tulyakov
+url:: https://snap-research.github.io/omni-attribute/
+pdf:: https://arxiv.org/pdf/2512.10955.pdf
+conference:: CVPR
+year:: 2026

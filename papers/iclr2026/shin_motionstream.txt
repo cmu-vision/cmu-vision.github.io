@@ -1,0 +1,6 @@
+title:: MotionStream: Real-Time Video Generation with Interactive Motion Controls
+authors:: Joonghyuk Shin, Zhengqi Li, Richard Zhang, Jun-Yan Zhu, Jaesik Park, Eli Shechtman, Xun Huang
+url:: https://joonghyuk.com/motionstream-web/
+pdf:: https://arxiv.org/pdf/2511.01266.pdf
+conference:: ICLR
+year:: 2026

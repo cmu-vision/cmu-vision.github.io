@@ -1,0 +1,4 @@
+title:: DeltaQuant: 4-bit Video Diffusion Models with Spatiotemporal Delta Smoothing
+authors:: Xingyang Li, Samuel Tesfai, Zhekai Zhang, Haocheng Xi, Shuo Yang, Lvmin Zhang, Yufei Sun, Kelly Peng, Maneesh Agrawala, Ion Stoica, Kurt Keutzer, Jun-Yan Zhu, Song Han, Yujun Lin, Muyang Li
+conference:: CVPR
+year:: 2026

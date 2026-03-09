@@ -1,0 +1,6 @@
+title:: Scaling Group Inference for Diverse and High-Quality Generation
+authors:: Gaurav Parmar, Or Patashnik, Daniil Ostashev, Kuan-Chieh (Jackson) Wang, Kfir Aberman, Srinivasa Narasimhan, Jun-Yan Zhu
+url:: https://www.cs.cmu.edu/~group-inference/
+pdf:: https://arxiv.org/pdf/2508.15773.pdf
+conference:: ICLR
+year:: 2026
