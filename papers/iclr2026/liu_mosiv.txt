@@ -1,0 +1,6 @@
+title:: MOSIV: Multi-Object System Identification from Videos
+authors:: Chunjiang Liu, Xiaoyuan Wang, Qingran Lin, Albert Xiao, Haoyu Chen, Shizheng Wen, Hao Zhang, Lu Qi, Ming-Hsuan Yang, Laszlo A. Jeni, Min Xu, Yizhou Zhao
+url:: https://arxiv.org/abs/2603.06022
+pdf:: https://arxiv.org/pdf/2603.06022.pdf
+conference:: ICLR
+year:: 2026
