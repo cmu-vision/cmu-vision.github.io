@@ -1,0 +1,6 @@
+title:: RobotArena ∞: Scalable Robot Benchmarking via Real-to-Sim Translation
+authors:: Yash Jangir, Yidi Zhang, Kashu Yamazaki, Chenyu Zhang, Kuan-Hsun Tu, Tsung-Wei Ke, Lei Ke, Yonatan Bisk, Katerina Fragkiadaki
+url:: https://arxiv.org/abs/2510.23571
+pdf:: https://arxiv.org/pdf/2510.23571.pdf
+conference:: ICLR
+year:: 2026
