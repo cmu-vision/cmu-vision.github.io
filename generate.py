@@ -258,12 +258,10 @@ def generate_papers():
         return (-year, s)
     subfolders.sort(key=_papers_sort_key)
 
-    # Build sections (no filter bar). Skip ICLR for now (show only CVPR 2026).
+    # Build sections (no filter bar).
     sections_html = []
     total_papers = 0
     for folder_name in subfolders:
-        if folder_name.lower().startswith('iclr'):
-            continue
         folder = os.path.join(papers_dir, folder_name)
         ids = get_txtfile_ids_skip_underscore(folder)
         if not ids:
