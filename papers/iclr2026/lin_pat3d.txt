@@ -1,6 +1,6 @@
 title:: PAT3D: Physics-Augmented Text-to-3D Scene Generation
 authors:: Guying Lin, Kemeng Huang, Michael Liu, Ruihan Gao, Hanke Chen, Lyuhao Chen, Beijia Lu, Taku Komura, Yuan Liu, Jun-Yan Zhu, Minchen Li
-url:: https://arxiv.org/abs/2511.21978
-pdf:: https://arxiv.org/pdf/2511.21978.pdf
+url:: https://carrie-lin.github.io/pat3d/
+pdf:: https://openreview.net/pdf?id=iIRxFkeCuY
 conference:: ICLR
 year:: 2026
