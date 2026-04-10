@@ -1,6 +1,6 @@
 title:: Dual Band Thermal Videography: Separating Time-Varying Reflection and Emission Near Ambient Conditions
 authors:: Sriram Narayanan, Mani Ramanagopal, Srinivasa G. Narasimhan
-url:: https://arxiv.org/
-pdf::
+url:: https://dual-band-thermal.github.io/
+pdf:: https://arxiv.org/pdf/2509.11334
 conference:: CVPR
 year:: 2026
