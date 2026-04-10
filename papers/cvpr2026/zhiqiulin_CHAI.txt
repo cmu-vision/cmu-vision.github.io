@@ -1,0 +1,5 @@
+title:: Building a Precise Video Language with Human–AI Oversight
+authors:: Zhiqiu Lin, Chancharik Mitra, Siyuan Cen, Isaac Li, Yuhan Huang, Yu Tong Tiffany Ling, Hewei Wang, Irene Pi, Shihang Zhu, Yili Han, Yilun Du, Deva Ramanan
+url:: https://linzhiqiu.github.io
+conference:: CVPR
+year:: 2026
