@@ -1,0 +1,5 @@
+title:: RobotArena ∞: Scalable Robot Benchmarking via Real-to-Sim Translation
+url:: https://robotarenainf.github.io/
+img:: https://robotarenainf.github.io/static/images/teaser.jpg
+year:: 2026
+topics:: Robotics, 3D Vision
