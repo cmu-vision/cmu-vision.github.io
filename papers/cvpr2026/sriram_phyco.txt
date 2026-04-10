@@ -1,6 +1,6 @@
 title:: PhyCo: Learning Controllable Physical Priors for Generative Motion
 authors:: Sriram Narayanan, Ziyu Jiang, Srinivasa Narasimhan, Manmohan Chandraker
-url:: https://arxiv.org/
-pdf::
+url:: https://phyco-video.github.io/
+pdf:: https://phyco-video.github.io/PhyCo_CVPR2026.pdf
 conference:: CVPR
 year:: 2026
